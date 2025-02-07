@@ -22,7 +22,7 @@ It uses RAG (Retrieval-Augmented Generation) on curated YC public materials and 
 
 ## By the way…
 
-This is our YC application. What do you think—will YC like the idea?
+This is our YC application. Will YC like the idea...?
 
 <div align="center">
   <img src="./images/meme2.png" width="500"/>
