@@ -3,6 +3,9 @@ import os
 from pathlib import Path
 import contextlib
 import logging
+import warnings
+
+warnings.filterwarnings("ignore")
 
 def main():
     try:

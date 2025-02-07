@@ -143,9 +143,6 @@ def show_question_page():
     
     st.markdown("<h1 style='text-align:center;'>AI YC Partner Agent</h1>", unsafe_allow_html=True)
 
-
-
-        
     # Higher-quality example questions
     example_questions = {
         "Equity vs SAFE": {

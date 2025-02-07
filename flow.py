@@ -6,7 +6,9 @@ import os
 import pandas as pd
 from vertexai.language_models import TextEmbeddingInput, TextEmbeddingModel
 from pocketflow import *
+from functools import lru_cache
 
+@lru_cache(maxsize=1000)
 def call_llm(prompt):
     from anthropic import AnthropicVertex
     client = AnthropicVertex(region="us-east5", project_id="wu-lab")

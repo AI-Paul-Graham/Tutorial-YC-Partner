@@ -1,0 +1,152 @@
+############################################
+#   OS-Specific
+############################################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+############################################
+#   IDE/Editor Specific
+############################################
+
+# VSCode
+.vscode/
+.history/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# IntelliJ / IDEA
+.idea/
+*.iml
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+
+# Visual Studio
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.vcxproj*
+*.vcproj*
+*.pdb
+*.opendb
+*.opensdf
+ipch/
+
+############################################
+#   General Build Outputs
+############################################
+
+# Build / Dist folders
+dist/
+build/
+out/
+temp/
+release/
+bin/
+obj/
+target/
+
+# Dependency directories
+node_modules/
+bower_components/
+.venv/
+venv/
+.egg-info/
+__pycache__/
+
+# Generated files
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.pyc
+*.pyo
+*.pyd
+
+############################################
+#   Logs & Databases
+############################################
+
+*.log
+*.sql
+*.sqlite
+*.db
+
+############################################
+#   Package Archives
+############################################
+
+*.jar
+*.war
+*.ear
+*.tgz
+*.zip
+*.tar
+*.gz
+
+############################################
+#   Coverage / Testing
+############################################
+
+coverage/
+coverage.json
+coverage/
+.nyc_output/
+lcov-report/
+*.lcov
+
+############################################
+#   Others (Optional / Common)
+############################################
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# npm
+package-lock.json*
+
+# Yarn / pnpm lockfiles (if you don't want them under version control)
+# yarn.lock
+# pnpm-lock.yaml
+
+# Environment / Credentials
+.env
+.env.*
+
+# Local tooling
+.eslintcache
+.stylelintcache
+
+# Backup files
+*.bak
+*.tmp
+*.old
+*.orig
