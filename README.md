@@ -3,11 +3,27 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 <div align="center">
-  <img src="./images/meme2.png" width="600"/>
+  <img src="./images/demo.gif"/>
 </div>
 
-This is an example LLM app based on [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line minimalist LLM framework.
+This is a demo LLM app built with [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line minimalist LLM framework. 
 
-Given a question, it uses Retrieval-Augmented Generation (RAG) on a curated list of YC public materials and cites the most relevant one.
+It uses RAG (Retrieval-Augmented Generation) on curated YC public materials and cites the most relevant sources. 
 
-Try it out [here](https://yc-partner-agent-eat3v5crbq-ue.a.run.app/).
+[Try it out here](https://yc-partner-agent-eat3v5crbq-ue.a.run.app/).
+
+- *flow.py*: LLM systems for RAG and QA (based on [Pocket Flow](https://github.com/The-Pocket/PocketFlow))
+  
+- *app.py*: Frontend using Streamlit
+  
+- *preprocess.py*: Generates embeddings for the curated YC public materials
+
+---
+
+## By the way…
+
+This is our YC application. What do you think—will YC like the idea?
+
+<div align="center">
+  <img src="./images/meme2.png" width="500"/>
+</div>
