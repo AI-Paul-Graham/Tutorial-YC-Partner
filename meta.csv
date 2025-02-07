@@ -1,0 +1,355 @@
+text_id,link,title
+1,http://www.paulgraham.com/woke.html,The Origins of Wokeness
+2,http://www.paulgraham.com/writes.html,Writes and Write-Nots
+3,http://www.paulgraham.com/when.html,When To Do What You Love
+4,http://www.paulgraham.com/foundermode.html,Founder Mode
+5,http://www.paulgraham.com/persistence.html,The Right Kind of Stubborn
+6,http://www.paulgraham.com/reddits.html,The Redditis
+7,http://www.paulgraham.com/google.html,How to Start Google
+8,http://www.paulgraham.com/best.html,The Best Essay
+9,http://www.paulgraham.com/superlinear.html,Superlinear Returns
+10,http://www.paulgraham.com/greatwork.html,How to Do Great Work
+11,http://www.paulgraham.com/getideas.html,How to Get New Ideas
+12,http://www.paulgraham.com/read.html,The Need to Read
+13,http://www.paulgraham.com/want.html,What You (Want to)* Want
+14,http://www.paulgraham.com/alien.html,Alien Truth
+15,http://www.paulgraham.com/users.html,What I've Learned from Users
+16,http://www.paulgraham.com/heresy.html,Heresy
+17,http://www.paulgraham.com/words.html,Putting Ideas into Words
+18,http://www.paulgraham.com/goodtaste.html,Is There Such a Thing as Good Taste?
+19,http://www.paulgraham.com/smart.html,Beyond Smart
+20,http://www.paulgraham.com/weird.html,Weird Languages
+21,http://www.paulgraham.com/hwh.html,How to Work Hard
+22,http://www.paulgraham.com/own.html,A Project of One's Own
+23,http://www.paulgraham.com/fn.html,Fierce Nerds
+24,http://www.paulgraham.com/newideas.html,Crazy New Ideas
+25,http://www.paulgraham.com/nft.html,An NFT That Saves Lives
+26,https://paulgraham.com/real.html,The Real Reason to End the Death Penalty
+27,http://www.paulgraham.com/richnow.html,How People Get Rich Now
+28,http://www.paulgraham.com/simply.html,Write Simply
+29,http://www.paulgraham.com/donate.html,Donate Unrestricted
+30,http://www.paulgraham.com/worked.html,What I Worked On
+31,http://www.paulgraham.com/earnest.html,Earnestness
+32,http://www.paulgraham.com/ace.html,Billionaires Build
+33,http://www.paulgraham.com/airbnbs.html,The Airbnbs
+34,http://www.paulgraham.com/think.html,How to Think for Yourself
+35,http://www.paulgraham.com/early.html,Early Work
+36,http://www.paulgraham.com/wtax.html,Modeling a Wealth Tax
+37,http://www.paulgraham.com/conformism.html,The Four Quadrants of Conformism
+38,http://www.paulgraham.com/orth.html,Orthodox Privilege
+39,http://www.paulgraham.com/cred.html,Coronavirus and Credibility
+40,http://www.paulgraham.com/useful.html,How to Write Usefully
+41,http://www.paulgraham.com/noob.html,Being a Noob
+42,http://www.paulgraham.com/fh.html,Haters
+43,http://www.paulgraham.com/mod.html,The Two Kinds of Moderate
+44,http://www.paulgraham.com/fp.html,Fashionable Problems
+45,http://www.paulgraham.com/kids.html,Having Kids
+46,http://www.paulgraham.com/lesson.html,The Lesson to Unlearn
+47,http://www.paulgraham.com/nov.html,Novelty and Heresy
+48,http://www.paulgraham.com/genius.html,The Bus Ticket Theory of Genius
+49,http://www.paulgraham.com/sun.html,General and Surprising
+50,http://www.paulgraham.com/pow.html,Charisma / Power
+51,http://www.paulgraham.com/disc.html,The Risk of Discovery
+52,http://www.paulgraham.com/pgh.html,How to Make Pittsburgh a Startup Hub
+53,http://www.paulgraham.com/vb.html,Life is Short
+54,http://www.paulgraham.com/ineq.html,Economic Inequality
+55,http://www.paulgraham.com/re.html,The Refragmentation
+56,http://www.paulgraham.com/jessica.html,Jessica Livingston
+57,http://www.paulgraham.com/bias.html,A Way to Detect Bias
+58,http://www.paulgraham.com/talk.html,Write Like You Talk
+59,http://www.paulgraham.com/aord.html,Default Alive or Default Dead?
+60,http://www.paulgraham.com/safe.html,Why It's Safe for Founders to Be Nice
+61,http://www.paulgraham.com/name.html,Change Your Name
+62,http://www.paulgraham.com/altair.html,What Microsoft Is this the Altair Basic of?
+63,http://www.paulgraham.com/ronco.html,The Ronco Principle
+64,http://www.paulgraham.com/work.html,What Doesn't Seem Like Work?
+65,http://www.paulgraham.com/corpdev.html,Don't Talk to Corp Dev
+66,http://www.paulgraham.com/95.html,Let the Other 95% of Great Programmers In
+67,http://www.paulgraham.com/ecw.html,How to Be an Expert in a Changing World
+68,http://www.paulgraham.com/know.html,How You Know
+69,http://www.paulgraham.com/pinch.html,The Fatal Pinch
+70,http://www.paulgraham.com/mean.html,Mean People Fail
+71,http://www.paulgraham.com/before.html,Before the Startup
+72,http://www.paulgraham.com/fr.html,How to Raise Money
+73,http://www.paulgraham.com/herd.html,Investor Herd Dynamics
+74,http://www.paulgraham.com/convince.html,How to Convince Investors
+75,http://www.paulgraham.com/ds.html,Do Things that Don't Scale
+76,http://www.paulgraham.com/invtrend.html,Startup Investing Trends
+77,http://www.paulgraham.com/startupideas.html,How to Get Startup Ideas
+78,http://www.paulgraham.com/hw.html,The Hardware Renaissance
+79,http://www.paulgraham.com/growth.html,Startup = Growth
+80,http://www.paulgraham.com/swan.html,Black Swan Farming
+81,http://www.paulgraham.com/todo.html,The Top of My Todo List
+82,http://www.paulgraham.com/speak.html,Writing and Speaking
+83,http://www.paulgraham.com/ycstart.html,How Y Combinator Started
+84,http://www.paulgraham.com/property.html,Defining Property
+85,http://www.paulgraham.com/ambitious.html,Frighteningly Ambitious Startup Ideas
+86,http://www.paulgraham.com/word.html,A Word to the Resourceful
+87,http://www.paulgraham.com/schlep.html,Schlep Blindness
+88,http://www.paulgraham.com/vw.html,"Snapshot: Viaweb, June 1998"
+89,http://www.paulgraham.com/hubs.html,Why Startup Hubs Work
+90,http://www.paulgraham.com/patentpledge.html,The Patent Pledge
+91,http://www.paulgraham.com/airbnb.html,Subject: Airbnb
+92,http://www.paulgraham.com/control.html,Founder Control
+93,http://www.paulgraham.com/tablets.html,Tablets
+94,http://www.paulgraham.com/founders.html,What We Look for in Founders
+95,http://www.paulgraham.com/superangels.html,The New Funding Landscape
+96,http://www.paulgraham.com/seesv.html,Where to See Silicon Valley
+97,http://www.paulgraham.com/hiresfund.html,High Resolution Fundraising
+98,http://www.paulgraham.com/yahoo.html,What Happened to Yahoo
+99,http://www.paulgraham.com/future.html,The Future of Startup Funding
+100,http://www.paulgraham.com/addiction.html,The Acceleration of Addictiveness
+101,http://www.paulgraham.com/top.html,The Top Idea in Your Mind
+102,http://www.paulgraham.com/selfindulgence.html,How to Lose Time and Money
+103,http://www.paulgraham.com/organic.html,Organic Startup Ideas
+104,http://www.paulgraham.com/apple.html,Apple's Mistake
+105,http://www.paulgraham.com/really.html,What Startups Are Really Like
+106,http://www.paulgraham.com/discover.html,Persuade xor Discover
+107,http://www.paulgraham.com/publishing.html,Post-Medium Publishing
+108,http://www.paulgraham.com/nthings.html,The List of N Things
+109,http://www.paulgraham.com/determination.html,The Anatomy of Determination
+110,http://www.paulgraham.com/kate.html,What Kate Saw in Silicon Valley
+111,http://www.paulgraham.com/segway.html,The Trouble with the Segway
+112,http://www.paulgraham.com/ramenprofitable.html,Ramen Profitable
+113,http://www.paulgraham.com/makersschedule.html,"Maker's Schedule, Manager's Schedule"
+114,http://www.paulgraham.com/revolution.html,A Local Revolution?
+115,http://www.paulgraham.com/twitter.html,Why Twitter is a Big Deal
+116,http://www.paulgraham.com/foundervisa.html,The Founder Visa
+117,http://www.paulgraham.com/5founders.html,Five Founders
+118,http://www.paulgraham.com/relres.html,Relentlessly Resourceful
+119,http://www.paulgraham.com/angelinvesting.html,How to Be an Angel Investor
+120,http://www.paulgraham.com/convergence.html,Why TV Lost
+121,http://www.paulgraham.com/maybe.html,Can You Buy a Silicon Valley? Maybe.
+122,http://www.paulgraham.com/hackernews.html,What I've Learned from Hacker News
+123,http://www.paulgraham.com/13sentences.html,Startups in 13 Sentences
+124,http://www.paulgraham.com/identity.html,Keep Your Identity Small
+125,http://www.paulgraham.com/credentials.html,After Credentials
+126,http://www.paulgraham.com/divergence.html,Could VC be a Casualty of the Recession?
+127,http://www.paulgraham.com/highres.html,The High-Res Society
+128,http://www.paulgraham.com/artistsship.html,"The Other Half of ""Artists Ship"""
+129,http://www.paulgraham.com/badeconomy.html,Why to Start a Startup in a Bad Economy
+130,http://www.paulgraham.com/fundraising.html,A Fundraising Survival Guide
+131,http://www.paulgraham.com/prcmc.html,The Pooled-Risk Company Management Company
+132,http://www.paulgraham.com/cities.html,Cities and Ambition
+133,http://www.paulgraham.com/distraction.html,Disconnecting Distraction
+134,http://www.paulgraham.com/lies.html,Lies We Tell Kids
+135,http://www.paulgraham.com/good.html,Be Good
+136,http://www.paulgraham.com/googles.html,Why There Aren't More Googles
+137,http://www.paulgraham.com/heroes.html,Some Heroes
+138,http://www.paulgraham.com/disagree.html,How to Disagree
+139,http://www.paulgraham.com/boss.html,You Weren't Meant to Have a Boss
+140,http://www.paulgraham.com/ycombinator.html,A New Venture Animal
+141,http://www.paulgraham.com/trolls.html,Trolls
+142,http://www.paulgraham.com/newthings.html,Six Principles for Making New Things
+143,http://www.paulgraham.com/startuphubs.html,Why to Move to a Startup Hub
+144,http://www.paulgraham.com/webstartups.html,The Future of Web Startups
+145,http://www.paulgraham.com/philosophy.html,How to Do Philosophy
+146,http://www.paulgraham.com/colleges.html,News from the Front
+147,http://www.paulgraham.com/die.html,How Not to Die
+148,http://www.paulgraham.com/head.html,Holding a Program in One's Head
+149,http://www.paulgraham.com/stuff.html,Stuff
+150,http://www.paulgraham.com/equity.html,The Equity Equation
+151,http://www.paulgraham.com/unions.html,An Alternative Theory of Unions
+152,http://www.paulgraham.com/guidetoinvestors.html,The Hacker's Guide to Investors
+153,http://www.paulgraham.com/judgement.html,Two Kinds of Judgement
+154,http://www.paulgraham.com/microsoft.html,Microsoft is Dead
+155,http://www.paulgraham.com/notnot.html,Why to Not Not Start a Startup
+156,http://www.paulgraham.com/wisdom.html,Is It Worth Being Wise?
+157,http://www.paulgraham.com/foundersatwork.html,Learning from Founders
+158,http://www.paulgraham.com/goodart.html,How Art Can Be Good
+159,http://www.paulgraham.com/startupmistakes.html,The 18 Mistakes That Kill Startups
+160,http://www.paulgraham.com/mit.html,A Student's Guide to Startups
+161,http://www.paulgraham.com/investors.html,How to Present to Investors
+162,http://www.paulgraham.com/copy.html,Copy What You Like
+163,http://www.paulgraham.com/island.html,The Island Test
+164,http://www.paulgraham.com/marginal.html,The Power of the Marginal
+165,http://www.paulgraham.com/america.html,Why Startups Condense in America
+166,http://www.paulgraham.com/siliconvalley.html,How to Be Silicon Valley
+167,http://www.paulgraham.com/startuplessons.html,The Hardest Lessons for Startups to Learn
+168,http://www.paulgraham.com/randomness.html,See Randomness
+169,http://www.paulgraham.com/softwarepatents.html,Are Software Patents Evil?
+170,http://www.paulgraham.com/6631327.html,6631372
+171,http://www.paulgraham.com/whyyc.html,Why YC
+172,http://www.paulgraham.com/love.html,How to Do What You Love
+173,http://www.paulgraham.com/procrastination.html,Good and Bad Procrastination
+174,http://www.paulgraham.com/web20.html,Web 2.0
+175,http://www.paulgraham.com/startupfunding.html,How to Fund a Startup
+176,http://www.paulgraham.com/vcsqueeze.html,The Venture Capital Squeeze
+177,http://www.paulgraham.com/ideas.html,Ideas for Startups
+178,http://www.paulgraham.com/sfp.html,What I Did this Summer
+179,http://www.paulgraham.com/inequality.html,Inequality and Risk
+180,http://www.paulgraham.com/ladder.html,After the Ladder
+181,http://www.paulgraham.com/opensource.html,What Business Can Learn from Open Source
+182,http://www.paulgraham.com/hiring.html,Hiring is Obsolete
+183,http://www.paulgraham.com/submarine.html,The Submarine
+184,http://www.paulgraham.com/bronze.html,Why Smart People Have Bad Ideas
+185,http://www.paulgraham.com/mac.html,Return of the Mac
+186,http://www.paulgraham.com/writing44.html,"Writing, Briefly"
+187,http://www.paulgraham.com/college.html,Undergraduation
+188,http://www.paulgraham.com/venturecapital.html,A Unified Theory of VC Suckage
+189,http://www.paulgraham.com/start.html,How to Start a Startup
+190,http://www.paulgraham.com/hs.html,What You'll Wish You'd Known
+191,http://www.paulgraham.com/usa.html,Made in USA
+192,http://www.paulgraham.com/charisma.html,"It's Charisma, Stupid"
+193,http://www.paulgraham.com/polls.html,Bradley's Ghost
+194,http://www.paulgraham.com/laundry.html,A Version 1.0
+195,http://www.paulgraham.com/bubble.html,What the Bubble Got Right
+196,http://www.paulgraham.com/essay.html,The Age of the Essay
+197,http://www.paulgraham.com/pypar.html,The Python Paradox
+198,http://www.paulgraham.com/gh.html,Great Hackers
+199,http://www.paulgraham.com/gap.html,Mind the Gap
+200,http://www.paulgraham.com/wealth.html,How to Make Wealth
+201,http://www.paulgraham.com/gba.html,"The Word ""Hacker"""
+202,http://www.paulgraham.com/say.html,What You Can't Say
+203,http://www.paulgraham.com/ffb.html,Filters that Fight Back
+204,http://www.paulgraham.com/hp.html,Hackers and Painters
+205,http://www.paulgraham.com/iflisp.html,If Lisp is So Great
+206,http://www.paulgraham.com/hundred.html,The Hundred-Year Language
+207,http://www.paulgraham.com/nerds.html,Why Nerds are Unpopular
+208,http://www.paulgraham.com/better.html,Better Bayesian Filtering
+209,http://www.paulgraham.com/desres.html,Design and Research
+210,http://www.paulgraham.com/spam.html,A Plan for Spam
+211,http://www.paulgraham.com/icad.html,Revenge of the Nerds
+212,http://www.paulgraham.com/power.html,Succinctness is Power
+213,http://www.paulgraham.com/fix.html,What Languages Fix
+214,http://www.paulgraham.com/taste.html,Taste for Makers
+215,http://www.paulgraham.com/noop.html,Why Arc Isn't Especially Object-Oriented
+216,http://www.paulgraham.com/diff.html,What Made Lisp Different
+217,http://www.paulgraham.com/road.html,The Other Road Ahead
+218,http://www.paulgraham.com/rootsoflisp.html,The Roots of Lisp
+219,http://www.paulgraham.com/langdes.html,Five Questions about Language Design
+220,http://www.paulgraham.com/popular.html,Being Popular
+221,http://www.paulgraham.com/javacover.html,Java's Cover
+222,http://www.paulgraham.com/avg.html,Beating the Averages
+223,http://www.paulgraham.com/lwba.html,Lisp for Web-Based Applications
+224,http://www.paulgraham.com/progbot.html,Programming Bottom-Up
+225,http://www.paulgraham.com/prop62.html,This Year We Can End the Death Penalty in California
+226,https://www.youtube.com/watch?v=z1aKRhRnVNk,How To Start A Dev Tools Company
+227,https://www.youtube.com/watch?v=0fKYVl12VTA,Enterprise Sales
+228,https://www.youtube.com/watch?v=GU9iT7MW0rs,Tarpit Ideas: The Sequel
+229,https://www.youtube.com/watch?v=4hjiRmgmHiU,"The Problem With Startup ""Experts"""
+230,https://www.youtube.com/watch?v=ClWQCm2h9iI,How To Price For B2B
+231,https://www.youtube.com/watch?v=8PB0l7x73rM&t,How To Influence Decision Makers
+232,https://www.youtube.com/watch?v=DISocTmEwiI,Co-Founder Equity Mistakes to Avoid
+233,https://www.youtube.com/watch?v=RMW_33zyTK4,How To Live In The Social Media Matrix
+234,https://www.youtube.com/watch?v=kVGvC7Ix_nc,Signs Your Company Is Recovering From ZIRP
+235,https://www.youtube.com/watch?v=LHUnje0NLG0,The Times When Paranoia Fueled Technological Advancement
+236,https://www.youtube.com/watch?v=VNxBZ7ka5J0,How To Keep Your Users
+237,https://www.youtube.com/watch?v=7Kh_fpxP1yY&t,How To Convert Customers With Cold Emails
+238,https://www.youtube.com/watch?v=FlonCU9txXI,What Founder Mode Really Means
+239,https://www.youtube.com/watch?v=Fk9BCr5pLTU,How To Find A Co-Founder
+240,https://www.youtube.com/watch?v=NhrkiK1SggE,Meta VS Apple: What Their Battle Means For AI Startups
+241,https://www.youtube.com/watch?v=HB3l1BPi7zo,How Do Billion Dollar Startups Start?
+242,https://www.youtube.com/watch?v=wRLTfC_PMKU,The AI Future Has Arrived: Here's What You Should Do About It
+243,https://www.youtube.com/watch?v=H_XMqRhLhic,How To Make The Most Out of Your 20s
+244,https://www.youtube.com/watch?v=z-TeST6LnOk,How To Focus On The Right Problems
+245,https://www.youtube.com/watch?v=wH3TKpALlw4,Starting A Company? The Key Terms You Should Know
+246,https://www.youtube.com/watch?v=2ViqdR5E2wU,When Should You Trust Your Gut?
+247,https://www.youtube.com/watch?v=SMi3JO-hsyY,Why Founders Shouldn't Think Like Investors
+248,https://www.youtube.com/watch?v=al-15mMAS18,Building Confidence In Yourself and Your Ideas
+249,https://www.youtube.com/watch?v=FNwu440UxhU,Stop Innovating (On The Wrong Things)
+250,https://www.youtube.com/watch?v=D81y-kh11oI,Should Your Startup Bootstrap or Raise Venture Capital?
+251,https://www.youtube.com/watch?v=fdD4y4Civp4,Consumer Startup Metrics
+252,https://www.youtube.com/watch?v=43RhhwpiSk0,Do Technical Founders Need Business Co-Founders?
+253,https://www.youtube.com/watch?v=vhXdUXmmhb4,"Techno Optimism, Explained"
+254,https://www.youtube.com/watch?v=_mKeVGSqQac,B2B Startup Metrics
+255,https://www.youtube.com/watch?v=ZpKu2wvquWg,How To Build A Tech Startup With No Technical Skills
+256,https://www.youtube.com/watch?v=fcfVjd_oV1I,How To NOT Get Screwed As A Software Engineer
+257,https://www.youtube.com/watch?v=chAoH_AeGAg,Should You Quit Your Job At A Unicorn?
+258,https://www.youtube.com/watch?v=09mXPGVkfVA,Why You Shouldn't Copy Your Tech Idols
+259,https://www.youtube.com/watch?v=ljVan7CGBiE,Startup Experts Share Their Investor Horror Stories
+260,https://www.youtube.com/watch?v=bgp5QZwuNQI,The Secret That Silicon Valley's Top Investors All Share
+261,https://www.youtube.com/watch?v=ZqGOCF4O6ks,Does Your Startup Need To Be In San Francisco?
+262,https://www.youtube.com/watch?v=DmehFuCMtvc,Startup Experts Reveal Their Favorite Pivot Stories
+263,https://www.youtube.com/watch?v=ECLJ95XNxA4,Silicon Valley's Cargo Culting Problem
+264,https://www.youtube.com/watch?v=smHw9kEwcgM,Will OpenAI Kill All Startups?
+265,https://www.youtube.com/watch?v=B5tU2447OK8,How to Apply And Succeed at Y Combinator
+266,https://www.youtube.com/watch?v=RD5EAMOh7fE,How Generosity Built Tech Giants
+267,https://www.youtube.com/watch?v=rP7bpYsfa6Q,Tips For Technical Startup Founders
+268,https://www.youtube.com/watch?v=IdwYMfM2QMs,Secrets You Can Learn From Your Customers
+269,https://www.youtube.com/watch?v=O5KCB2p6SB8,The Student's Guide To Becoming A Successful Startup Founder
+270,https://www.youtube.com/watch?v=zBUhQPPS9AY,How Startup Fundraising Works
+271,https://www.youtube.com/watch?v=QRZ_l7cVzzU,How to Build An MVP
+272,https://www.youtube.com/watch?v=LJay5YW4fLA,How To Earn Customers For Life
+273,https://www.youtube.com/watch?v=hUbM-bURoJE,The Hard Conversations Founders Don't Want to Have
+274,https://www.youtube.com/watch?v=u36A-YTxiOw,The Best Way To Launch Your Startup
+275,https://www.youtube.com/watch?v=ia7IKW0yuG0,The Cult of Conformity in Silicon Valley
+276,https://www.youtube.com/watch?v=rE2XaBGHN2I,The Secrets To Setting Smarter Goals
+277,https://www.youtube.com/watch?v=hyYCn_kAngI,How to Get Your First Customers
+278,https://www.youtube.com/watch?v=oWZbWzAyHAE,Startup Business Models and Pricing
+279,https://www.youtube.com/watch?v=z1iF1c8w5Lg,How To Talk To Users
+280,https://www.youtube.com/watch?v=o1HFZ8P4rA8,Which Sales Strategy Is Best For Your Startup?
+281,https://www.youtube.com/watch?v=GMIawSAygO4,Avoid These Tempting Startup Ideas
+282,https://www.youtube.com/watch?v=Th8JoIan4dg,How to Get and Evaluate Startup Ideas
+283,https://www.youtube.com/watch?v=BUE-icVYRFU,Should You Start A Startup?
+284,https://www.youtube.com/watch?v=DOez-RwJ7mg,The Truth About Y Combinator
+285,https://www.youtube.com/watch?v=bp_kMA-eTsE,Advantages Of A First-Time Founder
+286,https://www.youtube.com/watch?v=Hwfu1zNwSWI,The Better Customer–Startups or Big Enterprise?
+287,https://www.youtube.com/watch?v=gUuQsMERjUc,What Basic Game Theory Teaches Us About Startups
+288,https://www.youtube.com/watch?v=lJausFj_Dto,The Two Mindsets That Can KILL Your Startup
+289,https://www.youtube.com/watch?v=0IShllkCHtY,Most Important Lifestyle Habits Of Successful Founders
+290,https://www.youtube.com/watch?v=BtzUo6vL3Iw,Top Ways Startups Waste Money
+291,https://www.youtube.com/watch?v=9pQJXR0Tcos,Turning Your Users Into Paying Customers
+292,https://www.youtube.com/watch?v=AWa4qZvtMuY,How To Deal With Setbacks
+293,https://www.youtube.com/watch?v=CUZ6PKJZvXE,Don't Make These Hiring Mistakes
+294,https://www.youtube.com/watch?v=sM2reZib2RY,Why You Should Leave Your FAANG Job
+295,https://www.youtube.com/watch?v=euZH0tVotPQ,"Investors Said No, Now What?"
+296,https://www.youtube.com/watch?v=0OVSTWozvfY,Save Your Startup During an Economic Downturn
+297,https://www.youtube.com/watch?v=tzsmJtKZ2No,How To Compete With Amazon and Google
+298,https://www.youtube.com/watch?v=ephzgxgOjR0,How Future Billionaires Get Sh*t Done
+299,https://www.youtube.com/watch?v=f0tPjcgcwnQ,When to Launch Your Startup and When to Wait
+300,https://www.youtube.com/watch?v=UqKzpLqXuI0,Why Investors Can’t Fix Your Company
+301,https://www.youtube.com/watch?v=TCPjk8Tpb5c,"Things That Don't Scale, The Software Edition"
+302,https://www.youtube.com/watch?v=4RMjQal_c4U,What Does It REALLY Mean To Do Things That Don't Scale?
+303,https://www.youtube.com/watch?v=qnav9vgHDHs,How To Change The World? Get The Small Things Right
+304,https://www.youtube.com/watch?v=G7TMqY7gkGY,Simple Products That Became Big Companies
+305,https://www.youtube.com/watch?v=IYLVhk7yaaw,Elon Musk & The Midwit Meme
+306,https://www.youtube.com/watch?v=Jcuqq48CNj8,Where Do Great Startup Ideas Come From?
+307,https://www.youtube.com/watch?v=KWNNmPCF-Xs,Should You Follow Your Passion?
+308,https://www.youtube.com/watch?v=wnyI7ZM_Mrk,Understanding Investor Terms & Incentives
+309,https://www.youtube.com/watch?v=6606a2ka-jQ,YC Founders Made These Fundraising Mistakes
+310,https://www.youtube.com/watch?v=dlfjs_eEEzs,Co-Founder Mistakes That Kill Companies & How To Avoid Them
+311,https://www.youtube.com/watch?v=prKi3-rUPHc,How to Find the Right Co-founder
+312,https://www.youtube.com/watch?v=A3MmYbH1hbs,How To Cold Email Investors
+313,https://www.youtube.com/watch?v=C1DlZWfI6rk,Advice for Hard-tech and Biotech Founders
+314,https://www.youtube.com/watch?v=17XZGUX_9iM,How to Pitch Your Startup
+315,https://www.youtube.com/watch?v=9qWZALyGSmg,Modern Startup Funding
+316,https://www.youtube.com/watch?v=XcCmMOWuAF4,How to Prioritize Your Time
+317,https://www.youtube.com/watch?v=jwXlo9gy_k4,Startup Pricing 101
+318,https://www.youtube.com/watch?v=PGqX9fpweyc,How to Improve Conversion Rates
+319,https://www.youtube.com/watch?v=8pNxKX1SUGE,All About Pivoting
+320,https://www.youtube.com/watch?v=qnNHW6TYv5I,Building Culture
+321,https://www.youtube.com/watch?v=30a5yFBd7Fo,How to Work Together
+322,https://www.youtube.com/watch?v=LBC16jhiwak,Managing Startup Finances
+323,https://www.youtube.com/watch?v=6lY9CYIY4pQ,Growth for Startups
+324,https://www.youtube.com/watch?v=D56QeyyQMLI,The Biggest Mistakes First-Time Founders Make
+325,https://www.youtube.com/watch?v=3xU050kMbHM,How to Launch (Again and Again)
+326,https://www.youtube.com/watch?v=N8deM6B4eE4,How Do You Convince Someone to Join Your Startup?
+327,https://www.youtube.com/watch?v=LLerCc7MOQo,Analytics for Startups
+328,https://www.youtube.com/watch?v=lL6GdUHIBsM,How to Set KPIs and Goals
+329,https://www.youtube.com/watch?v=1hHMwLxN6EM,How to Plan an MVP
+330,https://www.youtube.com/watch?v=MT4Ig2uqjTc,How to Talk to Users
+331,https://www.youtube.com/watch?v=DOtCl5PU8F0,How to Evaluate Startup Ideas
+332,https://www.youtube.com/watch?v=yjOyMqYEX_8,The Story of Your Startup
+333,https://www.youtube.com/watch?v=xZi4kTJG-LE,How to Sell
+334,https://www.youtube.com/watch?v=8yiOcCPvyNE,How to Apply and Succeed at Y Combinator
+335,https://www.youtube.com/watch?v=NprBQi0cSHU,Running Your Company
+336,https://www.youtube.com/watch?v=gcevHkNGrWQ,Fundraising Fundamentals
+337,https://www.youtube.com/watch?v=7atClUTkR3A,A Conversation on Hard Tech
+338,https://www.youtube.com/watch?v=AZidfpz9KfY,Building an Engineering Team
+339,https://www.youtube.com/watch?v=JL9yoVFHx-Q,PR + Content for Growth
+340,https://www.youtube.com/watch?v=vrBhB48qPUM,A Conversation with Aileen Lee
+341,https://www.youtube.com/watch?v=9urYWGx2uNk,Design for Startups
+342,https://www.youtube.com/watch?v=O6uREh3G3sQ,Design for Startups (Part 2)
+343,https://www.youtube.com/watch?v=MABmQhOlmJA,How to Measure Your Product
+344,https://www.youtube.com/watch?v=T9ikpoF2GH0,How to Get Users and Grow
+345,https://www.youtube.com/watch?v=q_NbKjVc2l8,A Conversation About Crypto-currencies and ICOs
+346,https://www.youtube.com/watch?v=0LNQxT9LvM0,How To Find Product Market Fit
+347,https://www.youtube.com/watch?v=l-vfn97QTr0,Finding Product Market Fit at Segment
+348,https://www.youtube.com/watch?v=C27RVio2rOs,Building Product
+349,https://www.youtube.com/watch?v=4WO5kJChg3w,A Conversation with Paul Graham
+350,https://www.youtube.com/watch?v=0lJKucu6HJc,How to Succeed with a Startup
+351,https://www.youtube.com/watch?v=BTShgZxiNV8,Startup Legal Mechanics
+352,https://www.youtube.com/watch?v=tckGI4C7k10,"Communicate with Users, Build Something They Want"
+353,https://www.youtube.com/watch?v=3Fx5Q8xGU8k,Competition is for Losers
+354,https://www.youtube.com/watch?v=f4_14pZlJBs,Before the Startup

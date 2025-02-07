@@ -1,0 +1,244 @@
+# How to Start a Dev Tools Company
+
+**Speaker**: Nicola D  
+**Role**: Group Partner at YC, formerly Co-founder and CEO of Algolia
+
+---
+
+## Introduction
+
+Hello, my name is Nicola D, and I'm a Group Partner at YC. Before this, I was the Co-founder and CEO of Algolia, a search API used by millions of developers to build great search experiences in apps and websites.
+
+Today, I'm going to talk about how to start a Dev Tools company. Specifically, we'll cover:
+
+1. The founding team, including how to find your idea.  
+2. How to start the company, from prototype to MVP.  
+3. Go-to-market strategies, including sales and marketing for Dev Tools.
+
+---
+
+## 1. What Are Dev Tools?
+
+A Dev Tool is software used by developers to help build products. This can span coding, testing, debugging, documenting, deploying, and running software—every step of the development process. It’s a broad category that includes:
+
+- **IDEs** (e.g., VS Code)  
+- **APIs** (e.g., Stripe, Twilio, Algolia)  
+- **Libraries & Frameworks** (e.g., React, Node.js, LangChain)  
+- **Infrastructure & Cloud Services** (e.g., AWS, Vercel)  
+- **Tools** such as Docker, Terraform, Datadog, GitHub, etc.
+
+YC has funded hundreds of Dev Tools companies. Some notable examples include:
+
+- **GitLab** (the open-source GitHub alternative)  
+- **PagerDuty** (started as a simple alerting system, now used by half the Fortune 500)  
+- **Stripe, Docker, Heroku, Segment, Puck, Apollo, Airbyte, and Algolia** (my own company)
+
+We’ve learned a lot from working with these companies. Let’s dive into the main points.
+
+---
+
+## 2. Founding Team
+
+### Technical Founders Are Essential
+
+Dev Tools are inherently technical. Because you’ll be building something for developers, it's almost always the case that **the founding team needs to be made up of developers**. Most of YC’s Dev Tools startups have all-technical founding teams.
+
+One advantage here is that you, as a developer, use Dev Tools yourself every day. When you build a Dev Tool, you are essentially solving your own problems. This puts you in a great position to understand the audience and the pain points.
+
+### Mistakes to Avoid with Founders
+
+1. **Waiting for the perfect idea**  
+   - You can wait forever. It’s often better to start building *something* so you can learn quickly. Even if it’s an “obvious” or crowded idea (like LLM observability), get going and you can refine or pivot as you learn more.
+
+2. **Sticking with the wrong idea for too long**  
+   - About 50% of YC companies pivot from their initial idea. This is common, so be open to change.
+
+3. **Feeling like you must have a business founder**  
+   - Many Dev Tools companies at YC have *only* technical co-founders (74% of YC Dev Tools vs. 45% overall). You can learn the business side—no one will sell your product better than you, because you understand it deeply.
+
+---
+
+## 3. Finding Your Idea
+
+### Good vs. Bad Dev Tools Ideas
+
+Because Dev Tools are for developers, many ideas come from problems developers face daily (testing, documentation, QA, etc.). However, some categories are saturated. You must figure out how you’ll differentiate yourself if you enter a crowded segment.
+
+#### Build-Time vs. Run-Time Ideas
+
+- **Build-Time**: Tools like QA, testing, documentation. These are often *nice-to-have*; you can still build your main product without them.  
+- **Run-Time**: Tools that are “must-have” at runtime. If an API or runtime component is down, your product stops working. This is more critical and typically a stronger area to focus on.
+
+A run-time tool often aligns usage with your customers’ growth. For example, if Stripe’s customers sell more, Stripe makes more revenue. Everyone wins.
+
+#### Libraries & Frameworks
+
+- These can be great but are often challenging to monetize directly if they’re purely open source (e.g., Pandas).  
+- One common model is to offer hosting or a managed service on top of an open-source framework or library (e.g., Next.js + Vercel).
+
+#### LLM & AI Trends
+
+- There’s an explosion of Dev Tools for building with LLMs. This is very exciting, but also extremely crowded.  
+- Ideas like “LLM observability” or “LLM evaluation” are obvious and many companies are popping up in that space. You can still pursue such ideas, but you’ll need a **clear** way to differentiate and stand out.
+
+---
+
+## 4. From Prototype to MVP
+
+### Prototype Quickly
+
+Don’t over-engineer. Experienced engineers might be tempted to build for robustness and scalability. Instead, focus on iterating fast. You’ll likely throw away 90% of your early code; you need to find the 10% that truly delivers value. Then you can refactor.
+
+### Talk to Users (Early and Often)
+
+Show your prototype as soon as possible. Even if it’s rough, the feedback you get is crucial. It will inform what features provide value, what to prioritize, or even if you need to pivot.
+
+### Minimal Viable Product (MVP)
+
+Your MVP should provide **significant value** to a **specific** set of users—even if it’s a small niche. It’s better to be **10x better** at something narrow than to be mediocre for a broad audience. If people love your product for a tiny use case, you can expand from there.
+
+**Example**:  
+- **Algolia** started as a glorified autocomplete—very minimal. But it was **so much better** at autocomplete than anything else available at the time that people cared. This eventually became a broader search solution.
+
+### Mistakes to Avoid at This Stage
+
+1. **Choosing a tech stack because it’s “cool”**  
+   - Pick something that lets you iterate fast.  
+2. **Not talking to users**  
+   - You won’t know if you’re building the right solution if you don’t get real feedback.  
+3. **Overbuilding before feedback**  
+   - You could waste time solving the wrong problem.  
+4. **Misinterpreting developer feedback**  
+   - Developers might say, “I could build this in a week.” That’s fine; just build it. Don’t let that dissuade you.  
+5. **Hiring too early**  
+   - Until you’re sure you’re on the right track, don’t add overhead.
+
+---
+
+## 5. Go-To-Market
+
+Once you have something valuable and some early users, it’s time to think about scaling. This includes deciding on your **business model**, your **sales approach**, and your **marketing**.
+
+---
+
+### 5.1 Business Model
+
+#### Open Source or Not?
+
+- **Open Source** is often essential if you’re building a framework or library that developers must trust and integrate deeply. If you handle sensitive data (like a database or EHR), it’s almost a requirement.  
+- **Not Open Source** can still be fine (e.g., if you provide an API, or a hosted service that doesn’t require deep code integration with sensitive data).
+
+##### Advantages of Open Source
+
+1. **Developers love open source.**  
+2. **Community-driven awareness.**  
+3. Can be a **differentiator** (the “open source version of X”).  
+4. **Contributions** from the community—though in practice, large or high-quality contributions are rare.  
+5. **Trust** for large enterprises (they can inspect the code or self-host if needed).
+
+##### Monetization of Open Source
+
+1. **Hosting/Cloud Offer**  
+   - You provide a hosted version so people don’t have to manage it themselves. Often the cloud version has collaboration features or other “premium” additions (like advanced team management).  
+2. **Open Core**  
+   - An Enterprise edition with advanced features not in the fully open version. Commonly includes single sign-on (SSO), logs, disaster recovery, and SLAs that large companies need.  
+3. **Support/Services**  
+   - Some companies rely on paid support, but this can create perverse incentives to keep the product complex. Also, if your product is too easy to use, customers might not renew support.
+
+##### If You’re Not Open Source
+
+Typical pricing models are:
+- **Usage-based** (like Stripe or Algolia). Pricing scales with how much the customer uses the product.  
+- **Tiered plans** (like a “good, better, best” approach).  
+  - **“Good”** plan: self-serve, solves basic needs of individual devs.  
+  - **“Better”** plan: aimed at engineering managers for team collaboration, still possibly self-serve.  
+  - **“Best”** plan: aimed at the CTO for security, logs, disaster recovery, SLA—usually involves a salesperson.
+
+---
+
+### 5.2 Sales
+
+Most Dev Tools eventually adopt a **bottom-up** sales model, where individual developers or small teams adopt the product first, often through self-serve. However, to kickstart adoption when nobody knows you, you can’t rely purely on inbound leads:
+
+1. **Founder-Led Outreach**  
+   - Reach out to friends, colleagues, classmates. Use your network.  
+   - Personalize your messaging—don’t spam. Ask yourself if you’d want to read the email you’re sending. Iterate until it resonates.
+
+2. **Hiring Sales**  
+   - Don’t hire a sales team too early. The founders should learn how to sell the product themselves.  
+   - As a rule of thumb, wait until around **$1 million ARR** before hiring your first salesperson.  
+   - If you, the founder, can’t sell it, nobody else can.  
+   - Hire salespeople who understand developers. At Algolia, our sales reps called themselves “Product Specialists,” and they needed deep technical knowledge to engage credibly with devs.
+
+3. **Selling Dev Tools Is Different**  
+   - Developers don’t want to see a fluffy sales deck. **Show, don’t tell**—demonstrations work best.  
+   - Algolia didn’t have a sales deck until we were well past $10 million ARR. We relied on live demos.  
+   - **Lean into your technical nature**. If a buyer is non-technical and wants a turnkey solution, you may not be the right fit. If they’re technical or the tech team has influence, you’ll do better.  
+   - Bottom-up adoption: watch for pockets of usage inside large organizations. Then help management see the value and potential.
+
+---
+
+### 5.3 Marketing for Dev Tools
+
+Your main goal is to build awareness so that you **attract inbound** interest.
+
+1. **Find Your Community**  
+   - Hacker News, Reddit, Discord servers, etc.  
+   - Don’t try to sell; be helpful and establish expertise.
+
+2. **Launch, Then Launch Again**  
+   - You can launch multiple times. Each major update can be a new launch.  
+   - **Hacker News “Show HN”** is a great place for Dev Tools. Explain clearly what’s new and interesting.  
+   - Engage with comments (including negative ones) politely. Show your competence and class in your responses.
+
+**Examples**:  
+- **Segment**: They launched an early idea on Hacker News, received hundreds of upvotes and comments, and discovered they were onto something. That turned into the core idea for Segment.  
+- **Ameth**: They initially commented on a Hacker News post, got traction, and later launched multiple times as they released new features—each launch boosted adoption.
+
+3. **Documentation Is Marketing**  
+   - Developers check your docs immediately after (or even before) your homepage.  
+   - **Stripe** and other leading Dev Tools have raised the bar for documentation quality.  
+   - At Algolia, a feature was never considered “done” until its documentation was complete. The documentation team’s job was to *help* engineers write better docs, not to write it alone.
+
+4. **Support Is Marketing**  
+   - Engineers should do support, especially early on. Developers want to talk to people who truly understand the product.  
+   - This both delights customers (bugs can get fixed fast) and ensures your engineering team deeply understands user pain points.  
+   - At Algolia, we waited until we had hundreds of employees before having a dedicated support team. Even then, a top engineering manager led that new team.
+
+5. **Do Things That Don’t Scale**  
+   - Stripe famously installed their API for early users by going to their offices and pairing with them. This built trust, got quick feedback, and ensured a successful integration.
+
+6. **Hiring Marketing**  
+   - Founders should lead marketing for a long time—possibly forever. Most Dev Tools companies find that “traditional marketing” folks don’t resonate with developers.  
+   - **Developers hate being marketed to in the usual ways**. Make sure your voice is authentic and technical.  
+   - Early on at Algolia, we asked every engineer to do a “marketing hack” each month: write a blog post, speak at a meetup, create a cool side project, etc.  
+   - If you hire Dev Advocates, be mindful that it’s a fuzzy role. Consider waiting until you have a larger user base. When you do hire, look for developers who *already* understand your product and community.
+
+---
+
+## 6. Summary & Key Takeaways
+
+1. **Start Now**  
+   - Don’t wait for the perfect idea. Building *something* is how you’ll learn and iterate your way toward a successful product.
+
+2. **Build Quickly**  
+   - Avoid over-engineering. Focus on finding and refining the core 10% of your product that users truly value.
+
+3. **Talk to Users Early and Often**  
+   - Show prototypes. Gather feedback. Do things that don’t scale (like installing your software in person if needed).
+
+4. **Launch Early and Repeatedly**  
+   - You can always launch again when you add or improve features. The feedback you get is invaluable.
+
+5. **Consider Open Source**  
+   - Especially if you’re building a framework, library, or a product handling sensitive data. Think through how you’ll monetize it.
+
+6. **You Are the Best Salesperson**  
+   - Learn to sell. If you can’t sell it, no one else can.
+
+7. **You Are Also the Best Marketer**  
+   - Developers only trust messages that speak their language. Traditional marketing can alienate dev audiences.
+
+---
+
+**Thank you for reading!** If you’re building a Dev Tool, remember that you can apply to YC anytime.

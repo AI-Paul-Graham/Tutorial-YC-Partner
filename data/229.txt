@@ -1,0 +1,73 @@
+# Organized Conversation
+
+## Introduction
+**Dalton:** There's a lot of advice-giving things that are attached to a large tech company or a European conglomerate, saying, “This is our innovation lab, and we are going to work with startups. We’ll be your first customer. We’ll teach you innovation.”
+
+**Dalton:** Alright, this is Dalton plus Michael, and today we’re going to help you answer a question: **Are you getting the best startup advice?** We encounter a lot of founders, and these founders are spread all over the world. There are also advice-givers spread all over the world. 
+
+## Sourcing Good Startup Advice
+**Dalton (continued):** How would you advise a founder to think about where they should be sourcing their advice from?
+
+**Michael:** I think to start with, it’s much harder for me as a YC partner to try to debug something where someone has gone really far with questionable advice and dug a deep hole, than someone who’s completely fresh with a blank slate. Counterintuitively, someone who knows very little of startup advice—or knows very little of anything—because they’ve just been building something they wanted and kept their head down, they haven’t had the chance to develop bad habits or strange ideas about how to do a startup.
+
+For instance, the strange idea that the first thing you should do is get a bunch of advisers and create a board of advisors. That might never even occur to someone who’s just started after their PowerPoint deck. But we’ve just noticed there are folks who have a bunch of unusual ideas from our perspective. When we try to debug why, what do we learn?
+
+## The Root of Bad Advice
+**Dalton:** Someone somewhere was giving them a bunch of advice that was wrong. They used that advice to create a mental model of the startup world that was wrong. Teaching a founder to unlearn their mental model of the startup world— that’s a project. It’s harder than a blank slate, which is, “I don’t know anything.”
+
+**Michael:** Yeah, that’s harder. It’s funny because, thinking back to my first days of a startup, I didn’t know anything. Ignorance was a feature in so many ways. But if my head was filled with bad business advice, that would have been horrible.
+
+**Dalton:** Here’s the trick though: I’m trying to run my company—shouldn’t I be trying to find advice? Aren’t there best practices? Shouldn’t I learn them?
+
+**Michael:** The metaphor I’d use is that most people want to be in the big leagues, so to speak. They want to be at the highest level of their industry. If you want to be doing a venture-funded startup, at least, if I were to give advice to one of my children who wanted to be an actor or musician, I would probably say, “Go to the places where the top 1% of people that are actually working in the industry are, and try to meet and find those people, break into it, as opposed to staying in some small town.” 
+
+It seems obvious when I say that metaphor: if you want to be an actor, you should do that, or if you want to be in music, you should do that.
+
+**Dalton:** Whoa, whoa, but I know people in Boise, Idaho—it’s where I grew up. Isn’t that where I’m going to have an advantage? You know, those people will talk to me. When I go to LA, no one talks to me.
+
+## Local Ecosystems and Misaligned Incentives
+**Michael:** There’s a lot of on-campus resources, a lot of resources in various places, and the key thing to understand is that many of those places have incentives that may not be aligned with yours. A lot of startup ecosystems exist to create jobs in the local economy, to stimulate the local economy, for a variety of reasons. Again, it’s all cool stuff, but it’s hard to imagine any of those places giving you advice that involves leaving those places, because that is antithetical to their mission. 
+
+So a lot of the advice is, “Stay here, don’t get too big,” etc., etc.
+
+**Dalton:** You can speak—I mean, we experienced this. It was funny, I experienced this at Yale, but I wasn’t working on a startup, so it didn’t really take. But there was this vibe of, “New Haven’s an innovation hub. There’s some area of campus where there are offices where people are creating companies, and you can do that, and this is your fertile ground.” In hindsight, that’s not really where big companies are coming from. But to your point, can you blame Yale for trying to invigorate the New Haven economy? Who are you going to hire to work on those things?
+
+**Michael:** What’s crazy is I meet a lot of founders who have talked to a lot of people to get startup advice—people who worked at big companies and never worked at a startup, or people who studied the Lean Startup manual. It’s coming from a good place, but it’d be equivalent to getting acting advice from someone who’s not worked as an actor or ever helped anyone who’s worked as an actor. It’s tricky, right?
+
+## The Search for Support and Therapy
+**Dalton:** I think this is one of the things we’ve learned a lot. I understand why people go to these folks—doing a startup is hard. As nice as it is to watch a YouTube video, you can’t talk to us. As nice as it is to read a blog by P. Marker or to read PG’s essays, you can’t talk to them. One of the things you talk about a lot is that some part of talking to an adviser is about advice and tactics, but a big part is just: “This sucks. Can we talk about how bad this sucks for a second? Can I get a little bit of therapy?” You can’t get therapy from a YouTube video.
+
+**Michael:** Often, I tell founders: you should have people in your life—a significant other, a friend, a family member—who you can go to and share your downs with. You’re not going to get startup advice from them; you’re going to get life advice, like, “When things are hard, you should still stick with them.”
+
+## Online Resources vs. Bad Local Advice
+**Dalton:** I also wonder sometimes, if this was 20 years ago, you couldn’t really consume content from these people, but nowadays you can. It’s interesting because I think you can get a lot from online resources. If you had to choose between not-great advice locally and online, I think I’d take online.
+
+**Michael:** It’s funny because let’s do the rank order. We can debate: would I prefer zero startup advice consumption or top 1% online? Those are both better than local bad advice.
+
+**Dalton:** The pattern “no advice is better than bad advice” actually applies in other parts of the world, right? There are other products you’d probably rather not consume if you can’t get the best ones. It’s like, “Well, Dalton, I have these eggs here. They’ve been in my refrigerator for about three weeks. Maybe we should just have oatmeal.” Bad advice is worse than nothing.
+
+**Michael:** Exactly—anything that’s permanent and where there’s wide variability in the quality of service you can get, you should be picky. For instance, bad plastic surgery is definitely worse than not having it at all. Bad tattoos are worse than no tattoos. It’s the same for startup advice.
+
+**Dalton:** Be picky about your startup advice.
+
+## The Challenge of Unlearning
+**Dalton:** Another thing that unfortunately happens when you get local bad advice is that sometimes the process of undoing it is such a downer. When someone makes you believe something is going to happen fast or that you have a big opportunity or there’s some rule, then you learn it’s not true. Suddenly, you realize, “This is hard. It’s going to be hard for a while.”
+
+**Michael:** To give a concrete example, there’s a lot of advice-giving things that are attached to a large tech company or a European conglomerate, and they say, “We are going to work with startups. We’ll be your first customer. We’ll be your first customer. We will teach you innovation.” It sounds so good. There are a lot of these, but they don’t work because the motivations are unaligned. If I’m some big car company with an innovation lab, my motivation is not to invest in the car company that disrupts me. It’s basically to get a promotion, so the VP of innovation can hit their quarterly KPIs. You, as the startup, are like a product. You become, “Okay, how many startups did we help? Great, look at how much innovation we’ve created.”
+
+## The Bay Area Perspective
+**Dalton:** One of the reasons why we tell people to come here (the Bay Area) is the density of people who’ve done it before—people who’ve invested in good companies, started good companies, or advised good companies. Is there a more dense place on Earth?
+
+**Michael:** I don’t think so.
+
+**Dalton:** So any little thing you can do to make the odds better—consuming advice from people who’ve done it before, that’s one. Also, you honestly get more optimistic advice. Basically, a lot of what I would call “Bay Area perspective” is just: talk to customers, make something great, build a great product. A lot of what filters through local advice in certain regions is, “Get a board of advisors, partner with big companies, get a patent strategy.” It’s all about networking with the right people, and the product is an afterthought.
+
+**Michael:** It’s so sad because one of the funny things about Bay Area advice and investors is: they’ve seen it work. That makes you more optimistic. They might think, “I thought this wasn’t going to work, and then it worked. Now I’m like, how good is my ability to tell?” Whereas if you’re in some local startup accelerator in East Brunswick, New Jersey, every time they said no to a startup, they were probably right because none of them worked. So they haven’t seen the big wins that can change your outlook.
+
+## Final Thoughts
+**Dalton:** So consume good advice. Maybe it’s not us—there are many options. But look for stuff that inspires you and involves talking to customers and building things, as opposed to a complicated corporate strategy. That’s probably not going to inspire you or help you build great things.
+
+**Michael:** Exactly.
+
+**Dalton:** Good chat, thanks.
+

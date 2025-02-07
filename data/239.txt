@@ -1,0 +1,131 @@
+# Why You Need a Co-Founder
+
+**Speaker**: Harjeet ("Harge") Taggar, Group Partner at Y Combinator
+
+Building a successful startup is incredibly hard. You’re taking an idea, making it a reality, and competing against established companies with hundreds of employees and years of momentum. It’s tough to handle alone. Having a co-founder helps you:
+
+1. **Get More Work Done**  
+   - Two people can accomplish more working hours than one.  
+   - If your co-founder has complementary skills, they can do things you can’t.  
+   - A smart co-founder can challenge your ideas, talk you out of bad ones, and help find good ones.
+
+2. **Emotional Support**  
+   - Startups are a roller coaster, with highs (“We’ll take over the world!”) and lows (“We’re about to die!”).  
+   - A co-founder who’s equally all-in can bring you up when you’re down (and vice versa).  
+   - This support is different from what you get hiring employees or from people who join later, because your co-founder is deeply invested alongside you from the start.
+
+3. **Pattern Matching**  
+   - Almost every massively successful startup had co-founders.  
+   - Facebook is often seen as Mark Zuckerberg’s company, but Dustin Moskovitz was a co-founder.  
+   - Apple is associated with Steve Jobs, but he literally couldn’t have built the first Apple computer without Steve Wozniak.
+
+---
+
+## When to Bring On a Co-Founder
+
+**Should you start right now or wait for the perfect co-founder?**  
+- In **90%** of cases, spend your effort finding a great co-founder before starting.  
+- In **10%** of cases, if you have:  
+  1. A very specific idea you’re passionate about, backed by real domain experience or insight.  
+  2. The technical skills to build the first version yourself.  
+
+  Then you might begin alone and bring a co-founder on once you have some progress or traction.  
+
+**Example**: Drew Houston (Dropbox)  
+- Applied to Y Combinator as a single founder and was initially rejected.  
+- YC told him to find a co-founder, so he looked for one while still making progress on his product.  
+- He eventually brought on Arash Ferdowsi as a great co-founder.
+
+---
+
+## What to Look For in a Potential Co-Founder
+
+1. **Ability to Handle Stress Well**  
+   - Startups are stressful. If someone handles stress poorly, it can break the relationship.  
+   - The best way to know is having worked with them before under pressure.  
+   - Even if you’ve been friends or colleagues, you might not have faced *true* startup-level stress together.
+
+2. **Shared Goals and Alignment**  
+   - Make sure you and your co-founder want the same things from the startup.  
+   - Example: If you want a fast-growing, venture-funded startup, and they want a slow, steady “lifestyle business,” that mismatch will cause major friction.  
+   - Talk about motivations and what success looks like before you commit.
+
+3. **Broad, Adaptable Skills**  
+   - At least one co-founder should be technical if it’s a software/tech startup.  
+   - Beyond that, avoid over-focusing on specific languages or toolsets.  
+   - Look for someone smart, curious, and willing to learn—someone on a growth trajectory who can adapt as the company evolves.
+
+---
+
+## Where to Find Co-Founders
+
+**Ideally, identify potential co-founders long before you plan to start.**  
+- Work on weekend or side projects with people.  
+- See how they operate, whether they follow through, how they handle collaboration.
+
+**If you’re ready to start now**:
+1. **Look at People You Already Know**  
+   - Don’t assume they’re unavailable just because they have a job or other commitments.  
+   - Make a direct ask: “I’m starting a company. Would you join me as a co-founder?”
+   - If they truly say no, ask who *they’d* pick as a co-founder if they were starting a company—then ask for an introduction.
+
+2. **Expand Your Network**  
+   - Attend hackathons, open-source communities, and developer meetups.  
+   - You’ll meet people who like building things and might be open to starting a company.
+
+3. **YC Co-Founder Matching Platform**  
+   - Y Combinator created this platform to help people find co-founders.  
+   - It often works best if the two people have overlapping backgrounds, interests, or networks such that they might plausibly have met anyway.
+
+---
+
+## Testing the Waters and Getting Started
+
+If you **already know each other well**:  
+- Just start. Decide on what you’ll build, create a prototype, apply to YC, and so on.
+
+If you **don’t know each other well**:  
+- Treat it like a “dating” period. Spend evenings/weekends on small projects.  
+- See how you collaborate under pressure, check alignment on goals, and talk through expectations.
+
+---
+
+## Equity Splits
+
+When you formally incorporate and issue shares to each founder:  
+- **Default Advice**: Split equity equally.  
+- Even if one founder had the idea first or did some initial work, that’s a short-term difference compared to 10+ years building the company together.  
+- Equal splits keep everyone equally motivated and invested.
+
+---
+
+## Common Reasons for Co-Founder Breakups
+
+1. **Loss of Respect**  
+   - If you have different roles (e.g., Sales vs. Tech), friction arises when one side thinks the other isn’t performing well.  
+   - Feeling “I could do your job better than you” is usually lethal to the relationship.
+
+2. **Both Want to Be CEO**  
+   - Titles might not matter early on, but the CEO role is symbolic of ultimate decision-making power.  
+   - If more than one person insists on it, it indicates deeper mistrust or lack of respect.
+
+3. **Different Work Ethic Expectations**  
+   - One person wants “all-in, 24/7” while the other wants more work-life balance.  
+   - If not addressed, it leads to resentment and tension that can fracture the team.
+
+---
+
+## Avoiding a Breakup
+
+- **Don’t Avoid Disagreements**: Have difficult conversations early and often.  
+- **Regular Check-Ins**: Schedule monthly or periodic one-on-ones to talk about what’s working, what’s not, and how each of you feels. This “release valve” helps prevent big blowups.  
+- **Accept Some Risk**: No co-founding relationship is guaranteed. If it fails, learn from the experience and avoid repeating the same mistakes.
+
+---
+
+## Final Thoughts
+
+- A co-founder greatly increases your chances of success because they help you work faster, support you emotionally, and bring complementary skills.  
+- Ideally, partner with someone you already know and respect, but if that’s not possible, you can look beyond your immediate network and use resources like YC’s co-founder matching.  
+- Even strong co-founder relationships require active maintenance, open communication, and shared goals.  
+- Best of luck finding the right person—and we hope to see you at Y Combinator someday!

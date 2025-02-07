@@ -1,0 +1,170 @@
+# Tarpit Ideas (Part Two)
+
+**Dalton**:  
+When some people ask me, “Oh, is my idea a tarpit?” I’ll be like, “Hey, have you talked to any users?” and they’re like, “No, I thought you would tell me, though.” It’s funny. It’s like: “Have you been watching the videos?” I think what we say in the videos is you should talk to users and get a customer. They’re like, “Yeah, I guess you did say that. Yeah.”  
+
+This is Dalton plus Michael, and today we’re going to talk about tarpit ideas again. Tarpit: the sequel, part two. So, we’ve gotten a lot of feedback from our first tarpit video—was it about a year ago? It was a while ago, maybe a little bit more. It’s like: “Oh, this looks like a nice pool of water. No one’s here drinking at it, I’m going to get a drink of water from this pool.” Right? No danger, quicksand, what have you.  
+
+**Michael**:  
+What have you learned about it?  
+
+**Dalton**:  
+Well, I think a lot of people watched that video. I’ve met a lot of people in the real world who have watched it, and the most common question I get is, “Hey Dalton, is my idea a tarpit?” Then they tell me their idea. The first thing I noticed was a lot of folks didn’t exactly get the definition that we had. They interpret the term “tarpit” to just mean an idea that I don’t like. Again, maybe I’m—  
+
+**Michael**:  
+And Michael!  
+
+**Dalton**:  
+Yeah, it’s sort of like an idea that came up in the last video. We tried to define it a different way. Why don’t you try to give the definition—and you should watch the video, watch it—but we should restart, right?  
+
+So, the idea behind the tarpit idea is: we would see a lot of founders applying with the same idea over and over and over again. Often, we would fund many of them, and often, the idea wouldn’t work. After a while, we started seeing this trend: “Wow, there are these certain idea spaces that seem to always attract a lot of applicants, and they never work.” That’s how we came up with this concept of a tarpit idea.  
+
+In the video, I explained that that’s how tarpits were for dinosaurs: it looks like a body of water from afar, and as the dinosaur gets close, they go to drink it, and it’s tar. They get stuck, and they die. That’s why we have all of these dead founders in these tarpit pools—all these dead dinosaurs in tarpit pools.  
+
+What was interesting, though, was that, like you said, people interpret it almost like a static list that doesn’t change over time.  
+
+**Michael**:  
+And also that an idea that is “bad” and an idea that is a “tarpit” are the same thing. A tarpit is a pretty small set of ideas. If we imagine a Venn diagram, tarpit ideas are a smallish set. There are lots of ideas that are neither good nor bad; they’re just normal.  
+
+**Dalton**:  
+Yes.  
+
+**Michael**:  
+And so there’s something about tarpit ideas that’s insanely attractive. If other founders don’t come up with them all the time—constantly—it is not a tarpit idea. It has to be something where you’re like, “Yeah, I had that idea too.”  
+
+**Dalton**:  
+Yes. I think there’s another part about tarpit ideas: they get a lot of praise. Most startup ideas, when you tell your friends and they’re being honest, they’re like, “That’s not a good idea.” Tarpit ideas get a lot of positive feedback. The second your friend says, “That’s a great idea!”—like a food discovery app: “You know that problem where you can’t decide what restaurant to go to? That’s a great idea! I have that problem all the time.”  
+
+**Michael**:  
+Right.  
+
+**Dalton**:  
+I think the other thing you brought up is there’s a characteristic of a startup idea where it’s been done before, right? A lot of founders avoid research so they don’t learn things they don’t want to learn. But it’s been done before—a lot—and nothing has changed. I would argue that there are a number of ideas that, at any given time in the last hundred years, might have been tarpit, and then technology changed, and suddenly these are not only possible, they’re great businesses. But I think the characteristic is: it’s been done a lot, a lot of people have failed, nothing has changed.  
+
+**Michael**:  
+Yes.  
+
+**Dalton**:  
+And there’s just an endless supply of folks that haven’t even started a company yet who come up with a similar idea. It’s just one of the first ideas to pop into people’s minds.  
+
+**Michael**:  
+Right.  
+
+**Dalton**:  
+Now, I think what’s interesting is what’s happened since we recorded that video is LLMs—AI. When I’m reading applications, my first thought is: I am open to even classic tarpit ideas no longer being tarpit. I love to see when a founder can explain to me why the new technology might make something accomplishable that wasn’t accomplishable before. What I hate to see is a founder that’s not even acknowledging that many people have tried and failed before—like, “Oh, history that happened before I’m alive didn’t happen.”  
+
+**Michael**:  
+Yes.  
+
+**Dalton**:  
+They’re like, “Since I’ve been alive, that’s when history starts.”  
+
+**Michael**:  
+Right.  
+
+**Dalton**:  
+Or, “I wasn’t even aware.” So, it’s like: since I’ve been 18, that’s when history starts.  
+
+**Michael**:  
+Yes, exactly. The only good music is from when I was 18.  
+
+**Dalton**:  
+Exactly—literally. I think another area that you brought up is the X-for-Y idea, right? Like the co-pilot for something. “Co-pilot’s working great for developers, so shouldn’t there be a co-pilot for fill in the blank?”  
+
+**Michael**:  
+Yes.  
+
+**Dalton**:  
+And in this one, to be very clear, I don’t think these are tarpits—  
+
+**Michael**:  
+Fair.  
+
+**Dalton**:  
+—but they are common. So, to be very specific, everyone says “co-pilot for X,” and then we could play Mad Libs: co-pilot for real estate agents, co-pilot for investment bankers, co-pilot for lawyers, co-pilot for pilots, co-pilot for surgeons, co-pilot for dentists, co-pilot for dog walkers—who would not want a co-pilot?  
+
+**Michael**:  
+Right.  
+
+**Dalton**:  
+Again, these are not tarpits because not enough people have tried them.  
+
+**Michael**:  
+Exactly.  
+
+**Dalton**:  
+But they are common ideas. Again, it doesn’t mean you shouldn’t try it, but a lot of people, just from first principles, come up with these AI startup ideas.  
+
+**Michael**:  
+Yes.  
+
+**Dalton**:  
+This is not meant to screw with your dreams. A lot of people start companies because they see a problem in the world they really want to fix. The depressing thing I’ve learned is that whatever current set of technology is available can address only a current set of problems, and some problems fall outside that set. Every time there’s a new chunk of technology, we have to re-explore what problems are addressable.  
+
+I think what’s cool is that there are a lot of companies this batch where I would say, “I would not have funded this idea in the pre-LLM world.” I funded a company that’s basically doing completely AI-generated podcasts. Without LLMs and the ability to do voice generation, I would have never considered funding it. With that, I’m like, “Okay, let’s see.”  
+
+**Michael**:  
+Right.  
+
+**Dalton**:  
+I think that’s the other thing you should understand from our perspective. We’re definitely in an “Okay, let’s see” phase now, compared to 10 years into B2B SaaS, where it’s like, “We’ve seen a lot of forms.”  
+
+AI-generated video and audio—we have seen YC companies working on those since 2016, 2017, like early generative AI stuff. We’ve been funding that consistently, and it seems like it’s getting better. The quality is getting better.  
+
+It’s one funny thing about these. They always train them on YouTube video. Guess who has a lot of YouTube video of them? So, all these new demos that we see, it’s us in the videos.  
+
+**Michael**:  
+It’s quite embarrassing.  
+
+**Dalton**:  
+It is a little bit embarrassing, but they’re getting admittedly good. One thing I tried was a personalized podcast called Pocket Pod. I played it to my wife. She’s like, “Oh, you’re listening to NPR?” Then it played a quote of me talking to the reporter, and she’s like, “Did you give an interview?” I’m like, “This is all AI. I’m learning for the first time that I’m on my own podcast.”  
+
+It’s fun to see all these new things. Still, if you can’t draw any connection between new technology and why your problem can be solved today, and it’s one of these ideas that’s been tried many times, it’s tricky.  
+
+Maybe the last thing we should talk about is the flavors of tarpits. We were talking about this before—multiple flavors of tarpits. What do you see?  
+
+**Michael**:  
+I think the two most common are:  
+1. A belief that the world should work differently than it does—better. This is coming from a good place, but it’s basically, “Wow, the way X works is bad. We should do it Y, and everyone simultaneously needs to adopt the scheme.” I’d put the idea of coordinating with your friends to see who you can hang out with, event planning, that sort of thing. “Wouldn’t it be cool if all your friends wanted to install a new app to see what everyone’s doing?” We’d all have more fun, we wouldn’t be sad!  
+
+But it does not appear that people want to do that—or at least no one who’s tried this idea has figured it out yet. I’m sure someone’s watching, being like, “I’m going to figure it out!” God bless you. But that’s one example: it’s coming from a utopian sense of changing the way we live our lives, but it’s really hard to change human behavior.  
+
+It’s a perfect example of a tarpit: nobody would say no to it, because you’re working on something that’s really good.  
+
+2. Some form of arbitrage or a chance to get rich very quickly. There’s a limited window—“I have some secret knowledge; I can get very rich fast.” I’d be working for Google, but because of this moment in time, I can skip the entire startup slog. That also sounds really attractive, right? You don’t have to work for 15 years; just do the right thing at the exact right time. Grand slam, home run, I’m rich.  
+
+**Dalton**:  
+Yes, this is where you just end up doing an idea that’s whatever is raising money right now, or you find an arbitrage or a trick—adtech sometimes was like this. You see these momentary things where you want to make tons of money fast.  
+
+There were lots of people influenced by Wall Street Bets during the pandemic where a lot of startup ideas were, “I saw Wall Street Bets, I’m going to make a startup out of this somehow.” That was the input. My favorite is: “I’m doing so great on Wall Street Bets. My friends are all seeing it, and they just want to give me their money so I can invest it for them. So what’s the fastest way I can create an investment advisory business so I can shove my friends’ money into the market as fast as possible?”  
+
+I don’t see the problem—don’t markets always go up forever? Isn’t that how graphs work?  
+
+**Michael**:  
+When you’re young.  
+
+**Dalton**:  
+Yes, if it’s your first time. I’m thinking about this poor founder’s friends who just dumped all their life savings into the investment advisory business. Am I watching the car crash in real time? I don’t even know what company you’re referencing—there are many.  
+
+**Michael**:  
+Yes, there are many.  
+
+**Dalton**:  
+So that’s the mercenary style. Wrapping it up, the big takeaway here is: this is not a static list of ideas. Maybe ideas we mentioned in our last video are no longer tarpit—technology’s changed. Maybe ideas we made fun of in this video won’t be tarpit six months from now. Technology changes.  
+
+If it looks too good to be true—if you’re getting too much positive feedback, or it feels like, “Why doesn’t this already exist? It seems so easy!”—that’s not the shape of things we see working. Maybe you should be a little skeptical.  
+
+**Michael**:  
+It’s funny when people ask me, “Oh, is my idea tarpit?” and I’ll say, “Well, have you talked to any users?” and they’re like, “No, I thought you would tell me, though.” It’s funny: “Have you been watching the videos?” “I think you said we should talk to users and get a customer.” “Yeah, I guess you did say that.”  
+
+**Dalton**:  
+Interesting.  
+
+**Michael**:  
+“I thought I would just pick an idea based on what you said in the video.”  
+
+**Dalton**:  
+All right, Michael. Good chat.  
+
+**Michael**:  
+All right, sounds good. Thanks, man.  

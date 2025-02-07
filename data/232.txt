@@ -1,0 +1,96 @@
+## Introduction
+Hello, I'm Michael Seibel, and today I'm going to talk about co-founder equity splits and co-founder breakups. To be clear, this advice is primarily for people building tech software startups that they expect to be VC-funded. It's especially relevant for pre–product-market-fit companies. We’re focusing on conversations founders have at the beginning of their companies, because all kinds of interesting and complex things can happen later on, and it would be a misuse of this advice to apply it to non-tech companies or to companies well past the early stage.
+
+## TL;DR
+- **Be generous with co-founder equity.** You want to motivate your founding team to work extremely hard, especially in the first couple of years when the company often looks like it’s not working.
+- The biggest mistake is to be stingy with equity at this delicate early stage. This can cause people to leave when there’s still a chance to build something big.
+- The “Jedi founder” and the “dumb founder” are both generous with co-founder equity. The “midwit” tries to do a complicated calculation, factoring in skill sets, contributions, time commitments, networks, etc. That’s unnecessary complexity.
+- The short version: Keep it as close to equal as possible, use four-year vesting with a one-year cliff, and ensure all founders are essential to the team.
+
+## Co-Founder Equity Splits
+### Motivation for Generous Splits
+In my experience, founders often fail to think about how to keep their team motivated over the entire vesting period. Typically, you grant equity that vests over four years, and you don’t want co-founders to feel unmotivated or resentful in years two, three, or four because they have too little equity—especially if they see the CEO holding a significantly larger stake.
+
+Your job as CEO is to think not just about convincing your co-founder to work on the company today, but to ensure they remain motivated for all four years and beyond.
+
+### Vesting and Cliffs
+Most commonly, founder equity vests over four years with a one-year cliff:
+- **Four-year vesting:** Equity is earned gradually over four years.
+- **One-year cliff:** No equity is earned if a co-founder leaves before the one-year mark.
+
+These tools are extremely valuable. Sometimes founders think they don’t need them because they all like each other and can’t imagine leaving. However, life happens: People can get sick, have changes in personal circumstances, or simply underperform. Vesting with a cliff prevents a departing founder from damaging the cap table if they leave or are let go.
+
+### Co-Founders Must Be Essential
+A “founding team” is the smallest number of people required to build an MVP, get it into customers’ hands, and start learning. Being generous with equity also helps clarify who **really** needs to be a co-founder. If someone is not essential, they might be better as an employee rather than a co-founder.
+
+Remember that when you’re allocating co-founder equity, most of the company’s work hasn’t even happened yet. The equity’s purpose is to **motivate future work**, not necessarily to reward past contributions.
+
+### The CEO’s Role in Firing
+The CEO should have the ability to fire co-founders who are not performing. No matter the equity split, a successful startup needs a “captain of the ship” who is ultimately accountable. If a potential co-founder doesn’t accept that, they may not understand how serious building a startup is. Alternatively, they should start their own company and be the CEO.
+
+Co-founders should also discuss what will happen if things don’t work out. Let’s go over some guidelines (especially for pre–product-market-fit startups):
+
+## Guidelines for Co-Founder Breakups (Pre–Product-Market-Fit)
+1. **Before the One-Year Cliff:**  
+   - If a co-founder leaves or is fired before reaching the one-year cliff, it’s common they only receive a “token” amount of equity (2–5%). 
+   - Because there’s no real evidence the company will work at this early stage, it makes sense they shouldn’t walk away with a large stake.
+
+2. **After the One-Year Cliff but Still Pre–Product-Market-Fit:**  
+   - If a co-founder leaves or is fired, they typically walk away with **no more than 5%** of the company.  
+   - So much work remains to be done, and you want the departing founder’s equity to be available to motivate those who stay or join.
+
+3. **Severance (If Fired):**  
+   - It can be reasonable to offer one to three months of severance if a co-founder is fired.  
+   - If a co-founder leaves by choice, severance is not usually typical.
+
+4. **Board Resignation, Releases, Proxy Voting:**  
+   - Any departing founder should resign from the board, sign a release, and often give proxy voting rights to the remaining founders.  
+   - This allows the remaining team to maintain clear control and decision-making.
+
+Sometimes, it is the CEO who leaves or is fired (life happens). In that scenario, the new CEO must arrange the breakup accordingly. Even the CEO can end up in a position where they must leave, so these guidelines should be agreed upon by **all** co-founders.
+
+## Bad Reasons for Very Unequal Equity Splits
+Here are common justifications for “massively unequal” splits that don’t make sense:
+
+1. **“My co-founder agreed to 10% while I keep 90%. Isn’t that fine?”**  
+   - It might look fine **today**, but in year three, it may cause severe resentment or lack of motivation. You must think beyond the short term.
+
+2. **“I came up with the idea, so I deserve more.”**  
+   - Ideas are a dime a dozen. Execution is the real differentiator. If your co-founder is essential to execution, they deserve an equity split that keeps them motivated.
+
+3. **“I started working six months earlier, so I deserve significantly more.”**  
+   - In a potential 10-to-20-year journey, those six months are negligible compared to the huge amount of work that remains.
+
+4. **“My co-founder needs a salary, and I don’t.”**  
+   - Salary is about meeting living expenses. Equity is about long-term motivation. Don’t penalize someone’s equity stake because they don’t have personal savings.
+
+5. **“I’m older and more experienced than my co-founder.”**  
+   - If they are critical to building the product and company, they need meaningful motivation. Experience alone doesn’t justify a huge imbalance.
+
+6. **“I hired my co-founder after raising some money.”**  
+   - Raising money doesn’t guarantee success. There’s still a long road ahead. Don’t assume the risk has passed just because you have some funding.
+
+7. **“I hired my co-founder post-launch.”**  
+   - Launching an MVP is just the beginning. There’s still a tremendous amount left to do.
+
+All these are variations of **short-term thinking**. Great founders are long-term thinkers who understand the importance of keeping critical people motivated throughout the company’s life cycle.
+
+## Common Bad Advice
+### Performance-Based Equity
+Some people suggest awarding equity only if certain milestones are met—like lines of code written or a specific revenue goal. This approach fails because:
+- At the start, it’s **very unclear** how to set and measure these goals.
+- Startups often pivot, making the original metrics obsolete.
+- Vesting and the ability to fire (or leave) is the simpler, proven path.
+
+### Part-Time Founders
+A **part-time founder** is usually **not** a founder. While there may be edge cases, the successful tech startups generally involve full-time founders putting in full commitment.
+
+### Dynamic Equity Agreements
+Similar to performance-based equity, “dynamic” agreements can leave people confused about what they truly own. Founders need clarity on what they have **from day one** to stay motivated.
+
+Ultimately, if a founder isn’t working out, that’s what vesting and the cliff are for. Rely on vesting rather than convoluted formulas. If you’re unable to fire someone who’s not performing (or a co-founder can’t leave of their own accord when they know they should), that’s a deeper issue of commitment and respect.
+
+## Final Thoughts
+One might notice that, over 10 or 15 years, one founder often stays longer or contributes more—a classic example being Jeff Bezos at Amazon or Mark Zuckerberg at Facebook. You could argue they should have far more equity than others who left. However, the **early** years are critical in a tech startup. Getting that initial traction and staying alive through the first four to six years is **the** hardest part.
+
+Therefore, it’s wise t

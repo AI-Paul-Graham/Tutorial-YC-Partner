@@ -1,0 +1,184 @@
+## Introduction
+
+My name is Pete Koomen. I'm a Group Partner at YC and a YC Alum. I was Co-founder and CTO of Optimizely in the Winter 2010 batch. In this talk, I'm going to walk step by step through the process of closing your first enterprise customers. I’ll do that by focusing on successive steps in the sales funnel: **prospecting**, **outreach**, **qualification**, **pricing**, **closing**, and **implementation**. I’ll include lots of tactical advice and counterintuitive lessons I picked up while learning how to sell at Optimizely.
+
+I’m going to focus on enterprise sales for software startups, but this talk should still be broadly useful to any founder getting started with sales—regardless of the size of your customers or what you’re selling.
+
+Why am I giving this talk? Well, first, I know there’s demand for this. Sales is the number one concern for most of the founders I work with at YC during the batch. Second, I know from personal experience that sales is a learnable skill. My co-founder Dan and I both had technical backgrounds: we knew how to build a product, but we didn’t know how to get people to use it. We figured it out through trial and error. 
+
+That’s the first big lesson I want to share: **if you’re the founder of an early-stage startup and you’re building a product that you hope other businesses will buy, you are capable of selling it.** That’s the good news. The bad news is that you’re probably the only person capable of selling your product at first. If you aren’t able to sell your product yourself before you find product-market fit (PMF), chances are you won’t be able to hire someone else to do it for you.
+
+If you’re anything like we were, you might be thinking there are lots of talented salespeople out there—wouldn’t it be faster to hire one of them to do it for us? After all, that’s what you’d do with other roles like designers, lawyers, or accountants. 
+
+The problem is that **sales before you find product-market fit** is very different from **sales after you find product-market fit**. Sales pre-PMF is fundamentally entrepreneurial: it requires vision, credibility with customers, lots of experimentation, and a tight feedback loop with the product builders. This is a role for founders.
+
+So does that mean if you’re a team of technical founders building a product you should go find a business co-founder to do sales? Probably not. You don’t necessarily need a business co-founder to sell. I’ve worked with many technical founders who turned out to be great at selling—sometimes to their own surprise.
+
+Why is that? If you’re a technical founder building the product, you have **several advantages**:
+1. You’re an expert in the problem you’re solving and in the product you’re building.
+2. You have conviction—you sincerely believe that your product will solve your customer’s problem.
+
+Expertise and conviction are surprisingly important in sales. This is especially surprising to people who think sales is a “dark art” full of psychological tricks. In reality, sales isn’t about tricking people; it’s about helping them solve problems. Engineers are great at solving problems.
+
+Anyway, now that I’ve hopefully convinced you that you’re capable of selling your product, let’s talk about how to actually do it. We’ll go through the steps in a typical sales funnel together:
+
+1. Prospecting  
+2. Outreach  
+3. Qualification  
+4. Pricing  
+5. Closing  
+6. Implementation  
+
+---
+
+## 1. Prospecting
+
+Prospecting means finding potential customers. The output of this step is a **list of companies** you think might need your product, plus the **specific humans** at those companies who might buy it. There are lots of tools you can use for prospecting, but **before** you start, you need a **hypothesis** about who needs your product and why.
+
+A sales hypothesis goes like this: *Customer X has problem Y, and our product will help them solve it.* A good hypothesis clarifies **who** you should be talking to. For example, at Optimizely our initial hypothesis was:
+
+> *Marketers at small and medium-sized tech, media, and e-commerce companies want to run A/B tests on their websites, but they can’t because off-the-shelf experimentation tools require users to write code. Optimizely will enable them to run A/B tests without writing code.*
+
+Once you have a clear hypothesis, you can start prospecting by identifying companies likely to suffer from the problem you’re solving. One way is to buy industry lists of all companies in a given sector, then use filtering criteria to narrow your target list. At Optimizely, we used a tool called BuiltWith to see if prospects were using analytics tools and JavaScript frameworks. Those were signals that the company was relatively sophisticated and cared about their website.
+
+After you’ve identified companies, you need to find the **right humans** at those companies (the potential buyers) and get their contact information. There are tools to help you here. (During the Winter ’24 batch at YC, many founders used Apollo and LinkedIn Sales Navigator for exactly that.)
+
+Once you have a list of leads—specific humans at your target companies—it’s time to **get their attention**. That’s the next step.
+
+---
+
+## 2. Outreach
+
+The easiest way to get a meeting is to get prospects to reach out to **you**. Even if your plan is sales-led, do everything possible to generate inbound demand:
+- Launch early and often.  
+- Create technical content (videos, blog posts) that people might discover when searching for a solution to their problem.  
+- Build self-serve demos that people can share.  
+- Find online forums where your customers hang out and establish yourself as an expert by answering questions.
+
+If your customers congregate at industry conferences, **you should be there too**. See if you can get a list of attendees ahead of time and set up meetings in advance.
+
+When you identify a specific prospect, first see if you can get a **warm introduction**. Check LinkedIn for shared connections and ask for an intro. If you have no way in, you’ll have to do cold outreach. Cold outreach is less efficient, but still can be effective if you do it right:
+- Write each email by hand.  
+- Keep your emails short and to the point.  
+- Make the ask clear.  
+- Show why you’re reaching out to **that** recipient specifically (humans have built-in spam filters; if your email looks like it was mass-sent, it’s going in the trash).
+
+A handy rule: **only send cold emails you yourself would be excited to read**. If you wouldn’t be excited by the email you’re sending, your prospect won’t be either.
+
+### A Common Anti-Pattern
+Many founders talk to anyone who will take their call. This is a problem because it selects for people who are **easiest** to talk to, not those who might become **great customers**. You risk wasting time with prospects who enjoy chatting or giving you free feedback but will **never** buy.
+
+This anti-pattern often appears in two ways:
+
+1. **Trying to sell enterprise software to startups**  
+   If your product solves a problem that only exists in larger companies (for example, an HR information system), selling to a tiny startup is a waste of time—even though it’s easier to get a meeting with them.  
+2. **Trying to go bottom-up when your product must be adopted top-down**  
+   If your product requires an entire organization’s buy-in (like a hospital system that needs compliance, security, CIO sign-off, etc.), talking to a single junior employee isn’t going to help. You need to talk to the decision-maker.
+
+There’s a misunderstanding that YC says you should sell to companies that buy quickly—even if they’re not real prospects. That’s not correct. You **should** try to find companies that will buy quickly, but only if they **actually need** your product. A good prospect needs the problem you solve **and** has the budget and authority to make the purchase.
+
+---
+
+## 3. Qualification (The First Call)
+
+So you’ve managed to get a prospect on the phone. Your job on this **first call** is **not** to sell your product. Instead, you want to do two things:
+
+1. **Qualify** the prospect. Do they truly have the problem you’re solving, plus budget and authority to buy?  
+2. Schedule a follow-up call or meeting to demo your product.
+
+A huge mistake founders make is **pitching too soon**. They jump in with a polished pitch instead of asking questions. This mistake comes from thinking about the sale as if it’s you (a scrappy startup) against a giant, monolithic enterprise with “defenses.” Outside of certain used-car dealerships, **that’s not how sales works**.
+
+In reality, you’re selling to an **individual human**, not a monolithic entity, and your job is to understand **their problem**. The best way to do that is by listening. Ask questions like:
+- “What made you decide to take this call?”  
+- “Tell me about this problem. How long have you had it? How bad is it?”  
+- “Who else does it affect? Can you quantify the impact?”  
+- “How have you tried to solve it? Why hasn’t it been solved yet?”  
+- “What’s your budget for solving this problem?”  
+- “How does your organization buy software? Who makes the decision?”  
+- “Who else needs to weigh in?”
+
+Sometimes, you’ll discover that the prospect **doesn’t** actually need your product or doesn’t care enough to pay for a solution, or that there’s no budget, or a bunch of other reasons it’s not a real opportunity. That’s *great* because you can move on and focus on better prospects.
+
+But if they **do** have the problem, and they care about solving it, you’ll earn the chance to show them how your product works. That’s the next step.
+
+---
+
+## 4. The Demo
+
+Most founders see the demo as their chance to *finally* show off the product. In my experience, that mindset leads to bad demos. The purpose of a demo is **not** to show off everything; it’s to convince your audience you can **solve their problem**.
+
+One trick: **think of your demo like a script for a great movie**. A great script:
+- Starts by recapping who the “main character” (the user) is and the problem they face.  
+- Shows how the main character solves that problem step by step.  
+- Includes only the features relevant to solving that particular problem.  
+- Has a flow, possibly a few “magic moments” where something is surprisingly easy or delightful.
+
+Critically, **personalize the demo** using the info you learned in the qualification call. Tailor it to their company, their use case, their customers—even their teammates’ names if relevant. Make it feel as if you’ve built a custom solution just for them.
+
+At Optimizely, we spent a lot of energy making sure we could demo **on the customer’s own website**, rather than a generic demo page. It was more work, but it delighted prospects: they could see changes happening instantly on their real landing pages.
+
+If you do a good job, your prospect and their team will come out of this meeting convinced that you can solve their problem. Then it’s time to talk price.
+
+---
+
+## 5. Pricing
+
+“How do I price my product?” is one of the most common questions founders ask. There’s no simple formula. Even if you asked good questions earlier (like “How much is this problem costing you?” or “How much are you paying a competitor?”), there’s still guesswork involved.
+
+Early on, **think of each pricing conversation as an experiment** to test a price point and observe the reaction. At Optimizely, we had published self-serve pricing for a basic version and an enterprise plan that required you to speak to sales. The enterprise plan’s price was not published, giving us the flexibility to quote different prices for each prospect and see what happened.
+
+The biggest pricing mistake is **charging too little**, sometimes even giving the product away “in exchange for feedback.” Founders worry about scaring customers off by charging more. But you’ll be surprised—if a customer truly wants your product, it’s hard to scare them off with a higher price. 
+
+I remember my co-founder Dan once quoted $10,000/month to a prospect, who negotiated down to $2,000/month and bought. Our initial quote was **5x** what they were willing to pay, but they still closed. 
+
+In fact, charging more can help verify that customers really need what you’re offering. It also makes them more serious. Higher prices can position your product as a crucial solution rather than a nice-to-have.
+
+Finally, keep in mind that **the most important conversations about price happen without you in the room**—when your champion has to sell your product internally. Make that easier by providing them with simple slides or a one-page PDF summarizing the product’s benefits and your pricing.
+
+Don’t overthink pricing at the start. Pick a number (that makes you a bit uncomfortable), see how prospects react, and adjust. It’s okay if they negotiate you down; in the early days, you’re optimizing for **learning**, not perfect unit economics.
+
+---
+
+## 6. Closing
+
+Once the prospect has accepted your price, it’s time to close the deal. **Closing** isn’t a single conversation; it’s all the steps from “Yes, we want this” to “We have a signed contract.” Large organizations (especially in regulated industries) may have formal procurement processes: security reviews, privacy reviews, legal sign-off, compliance, and so forth. Smaller companies typically have less red tape, but there’s almost always at least a legal review.
+
+The biggest mistake founders make here is being **surprised** by how long this can take or by unexpected roadblocks. The way to avoid surprises is to **ask questions early**: “What’s your procurement process?” “Who needs to sign off?” “Do we need to fill out a security questionnaire?” 
+
+Try to do as many things **in parallel** as possible. And **keep your legal docs simple**. I often recommend starting with open-source templates from YC company Common Paper. If you can, keep timelines and scope of work out of the legal contract (put them in an order form or separate project-tracking document). 
+
+Above all, remember your champion—the prospect who wants your product—can help you navigate their organization. They’re motivated to get you through the hoops because **they** can’t solve their problem until you’re approved. Stay in close communication, ask for help when needed, and push to keep the process moving.
+
+---
+
+## 7. Implementation
+
+Now that you have a signed contract, **congratulations**—it’s time for your customer to start using your product. This last step is **implementation**.
+
+The single biggest mistake here is thinking **implementation is the customer’s job**. At Optimizely, we made this error more than once. We signed large deals, but a year later—at renewal time—we discovered the product wasn’t used at all. We were baffled. Why would a customer pay so much but never actually use the product?
+
+In those cases, the immediate cause was that the marketing team (who bought our software) couldn’t get the engineering team to install it. The deeper cause was **we** didn’t do our job. We assumed they were “buying the product” and the rest was up to them. In reality, they were “buying a solution to a problem,” which includes all the work required to get from product to solution.
+
+We learned to ask about implementation steps early in the sales process. We built detailed implementation plans with both marketing **and** engineering leaders before signing the contract. If we couldn’t do that, we wouldn’t sign a deal. Then, we’d project-manage the process, making a shared roadmap with owners for each task and regular check-ins. 
+
+Your sales funnel **truly** ends when the customer is using your product **habitually**. At that point, you’ve likely got a customer for life.
+
+---
+
+## Conclusion
+
+We’ve covered a lot:
+- **Prospecting**  
+- **Outreach**  
+- **Qualification**  
+- **Doing your first call**  
+- **Delivering a great demo**  
+- **Pricing**  
+- **Closing**  
+- **Implementation**  
+
+Of course, there’s more to learn. The best founders **devour** everything they can about sales. If you want to go deeper, I recommend Peter Kazanjy’s book **_Founding Sales_**, which is free online.
+
+But like so many hard aspects of building a company, the best way to learn is by **doing**. If you remember only one thing, let it be this: **just get started**. You’ll make mistakes, but with enough attempts, you’ll figure it out, and selling will start to feel natural. Eventually, you’ll discover you’ve acquired a new superpower—one that helps not only with getting customers and revenue, but with fundraising and hiring, too. Before you know it, you’ll be the one sharing advice like this with new founders.
+
+Thanks for reading!

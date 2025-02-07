@@ -1,0 +1,144 @@
+# How to Price Your Product
+
+**By Tom, Partner at Y Combinator**
+
+**Introduction**  
+One of the most common questions I hear from founders is: **“How do I price my product?”** Often, a founder has been working hard on outbound sales, finally gets a promising sales call, and then freezes when asked for pricing. Founders who haven't worked at big companies often don't have good calibration on what large businesses typically pay. You might reflexively think of the last time you personally paid for software, like a subscription to GitHub or ChatGPT, and quote a low rate—e.g., \$19 or \$49 a month—because asking for tens or hundreds of thousands of dollars feels awkward.
+
+However, in business-to-business (B2B) software, price points of tens or even hundreds of thousands of dollars can be completely normal. Below is a framework for coming up with a price and justifying it to a potential customer.
+
+---
+
+## 1. The Value Equation
+
+The first and most important element of pricing is what I call **“the value equation.”** This means you sit down with your _champion_—the point person at the potential customer who sees how your product can solve a key problem—and outline the value it will deliver. Typically, companies pay for software that helps them:
+
+- Reduce costs  
+- Save time (which effectively reduces labor costs)  
+- Increase revenue  
+
+By working out a rough calculation of what your product’s impact will be, the champion can then take this “value equation” to their boss or CFO to justify the purchase.
+
+### Example: Customer Service Tool
+Suppose you have a big company with 100 customer support agents. Each agent costs \$50,000 a year in salary, plus another \$50,000 for overhead (offices, insurance, etc.), so the **fully loaded cost** per agent is \$100,000. That means 100 agents cost the company \$10 million per year.
+
+Now, you’re proposing an AI-powered customer service tool that will reduce the number of queries or time spent by 20%. That translates to a **\$2 million potential annual cost saving** (20% of \$10 million). A typical approach is to **charge 25-50% of that value**—so if you target around one-third, they keep two-thirds and you charge one-third. In this example, you might charge \$700,000. They save \$1.3 million, you earn \$700k, and everyone benefits.
+
+#### Pilot Projects and Success Metrics
+The value equation also helps define **success metrics** for a pilot. You might say: “Let’s try this for a month with 10 agents to see if we really get a 20% reduction in tickets or time. If we do, then we know the \$2 million savings is valid.” If you only hit a 15% reduction, you can adjust the pricing accordingly; if you see 25%, maybe you can even justify a higher fee.
+
+---
+
+## 2. Cost Considerations
+
+Cost should **only** be a floor in your pricing model. Never start with a “cost + margin” approach, because that tends to undervalue software.
+
+1. **Check that your costs are well below your target price**  
+   After doing the value equation, suppose you plan to charge \$700k but your expenses (e.g., AWS, OpenAI fees, etc.) are \$200k. That leaves you with a good margin.  
+   
+2. **Watch out for credit-based illusions**  
+   If AWS, Microsoft, or OpenAI are giving you credits, treat them as if they were real cash costs. Those credits won’t last forever, and you don’t want to end up with an unprofitable business model once credits expire.
+
+3. **Undercutting cost is risky**  
+   You might be tempted to price below cost to grab market share, especially in an arms-race scenario, hoping costs drop drastically later. This can be **very risky**—it assumes future cost reductions that may or may not happen.
+
+---
+
+## 3. Competition
+
+Even if your value equation suggests a strong price, there could be a competitor offering something similar at half your rate. What do you do?
+
+- **Avoid a price war.** Competing solely on price in a commodity market is a race to the bottom. No one wins.  
+- **Differentiate.** Show that your product has a unique feature set, integrations, or use cases. If you end up selling a pure commodity, margin will be driven out of the business (like in airlines, which average about 2.7% net profit margin).
+
+---
+
+## Additional Pricing Techniques and Structures
+
+### Ask About Comparable Software
+Ask your champion how they pay for other software:  
+- Monthly flat fees?  
+- Per-seat pricing?  
+- Usage tiers or credits?
+
+Try to **mirror** existing pricing norms in their company or industry. Also note that **uncapped usage-based pricing** can scare customers. Consider imposing a cap or fixed tier.
+
+### Keep It Simple
+Complex pricing structures can kill sales. In general:  
+- **Committed recurring revenue** (monthly or annual) is better than purely usage-based.  
+- During downturns, usage-based revenue can plummet, while committed revenue offers more stability.
+
+#### A Possible Hybrid Approach
+1. Start with usage-based pricing for the first month or two.  
+2. Once you see their typical usage, offer a **monthly or annual commitment** that includes most or all usage up to that level. For instance, if they average \$15k/month in usage, offer \$12k as a flat monthly fee over a year.
+
+### Leverage Approval Limits
+Ask your champion: “What’s the largest purchase you can approve without extra sign-offs?” If it’s \$15k, then consider a pilot price at \$14,999 so the deal can move forward more quickly.
+
+### Public Pricing vs. Contact Sales
+Developers often say, “I want to see the price upfront!” But enterprise deals often have **different value equations** for each customer. A single public price might be too high for some or too low for others.
+
+Most companies compromise by having:  
+- **Basic/Individual tiers** that are publicly priced.  
+- **Enterprise tier** that says “Contact Sales,” which allows custom negotiation.
+
+Typically, advanced compliance, single sign-on (SSO), or location-specific data storage are gated behind the enterprise plan—features individuals and small teams don’t need but enterprises **must** have. This justifies the higher price for large accounts.
+
+---
+
+## Pricing Strategy & Sales Channels
+
+Your pricing influences your sales approach. Use the **5:1 ratio** as a rule of thumb for sales compensation:
+
+> **5:1** = (New Signed ARR) : (Total Salesperson Compensation)
+
+- If you pay a salesperson \$100k per year, you’d expect them to close \$500k in new ARR.  
+- How you reach that \$500k depends on your deal size.  
+  - If your average deal is \$100k, you aim for 5 deals a year.  
+  - If it’s \$25k, you need ~20 deals.  
+  - If it’s \$1k, you need ~500 deals a year, which is almost two new deals per working day. That’s more like a call-center approach than a traditional enterprise sales model.
+
+---
+
+## Free Trials and Pilots
+
+Long pilots can be counterproductive: the customer hasn’t actually committed. Better to keep pilots **short** (2-4 weeks) with **clear success metrics**.
+
+A bolder technique:  
+- Ask for an **annual contract up front**, but offer a **30- or 60-day money-back guarantee**.  
+- If it meets the success criteria, the default is to continue.  
+- This lets you count it as recurring revenue right away, while still giving the customer an exit if your product doesn’t deliver.
+
+---
+
+## Small Startup vs. Big Companies
+
+Founders sometimes wonder if they should pretend to be bigger. Instead, **embrace your small size**:
+
+> “Because we’re a startup, you have direct access to the founders 24/7. We’re laser-focused on ensuring you succeed. That’s something large vendors can’t provide.”
+
+---
+
+## Iterating on Price
+
+If you’re still stuck after attempting the value equation—maybe it’s unclear or you have zero data—**just pick a number that feels right based on comparable software.** Then:
+
+1. Quote that price to a customer.  
+2. If they say “yes” too fast, **increase** the price by 50% for the next prospect.  
+3. Keep going until you lose about 25% of deals _specifically on price_. That typically means you’ve found your pricing sweet spot.
+
+Remember, your first 5-10 customers may account for a tiny fraction of future revenue if you succeed. It’s more important to land those initial deals and refine your product and sales motion. **You can always increase prices later** by adding new modules or features.
+
+---
+
+## Conclusion
+
+### Three Key Points for Pricing
+
+1. **Value Equation**: Identify the concrete value (savings or revenue increase) and price at roughly **one-third** so the customer keeps two-thirds.  
+2. **Check Costs**: Ensure you’re not losing money. Aim for 80-90% software margins.  
+3. **Competition**: Avoid price wars. Differentiate your product to dodge commodity-level pricing.
+
+Pricing is a dynamic process. Your product will get better, you’ll become more confident in sales, and you’ll gain market recognition. The earliest deals are the hardest, so close them, learn from them, and adjust as you grow.
+
+**End of Document**

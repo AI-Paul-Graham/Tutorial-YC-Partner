@@ -1,0 +1,55 @@
+# Living in the Social Media Matrix
+
+**Speakers**: Dalton and Michael
+
+---
+
+**Michael**:  
+Hello! This is Dalton plus Michael, and today we're going to talk about living in the social media Matrix. Now, Dalton, *The Matrix* came out in the 90s. Some people watching this might be thinking, “Yeah, I know *The Matrix*: that thing with that guy.” Maybe we should just take this video to explain *The Matrix* and act out all the parts. What do you think?
+
+**Dalton**:  
+That’s a good video idea, Michael. But let's keep it short: *The Matrix* is a world controlled by machines. Humans are used as energy sources—like batteries. The people inside it don’t realize they’re trapped in a computer simulation.
+
+The analogy here is that social media companies can be seen as those robots, harvesting human energy. Michael and I know a fair amount about social media companies. We’ve started some ourselves, and I’m still involved with one of the better-known ones. The basic idea behind social media platforms is that users create content on a website or app, generating page views. The company can then serve ads on those pages and earn a fraction of a penny every time an ad is shown. It costs them almost nothing to get this user-generated content, so the whole business model thrives on people posting a lot.
+
+**Michael**:  
+Exactly. These large, powerful businesses need everyone to post a lot. We have to ask: **What is the value exchange?** And **how do we ensure we’re not secretly harming ourselves**?
+
+**Dalton**:  
+Step one is to be aware that **everything** you post—including this video—ends up on the internet and is monetized by someone else. It’s not necessarily about “selling your data”; it’s about selling everyone’s eyes looking at your posts. At the same time, there are negative externalities—side effects you might not notice right away.
+
+**Michael**:  
+Yes, younger people often know to be careful with personal photos, or they set up “fake Instagrams.” That sort of caution has been common advice for at least a decade. But there’s a more nuanced point here:
+
+1. **Everything you post to the internet is forever.** Even if you delete it, bots and scrapers will often cache it.  
+2. **De-anonymizing tools are getting better.** Even if you think you’re totally anonymous, AI can analyze writing style, posting times, and other patterns to figure out who you are.
+
+**Dalton**:  
+Exactly. It’s not just about photos. We live in a world where you need to be cautious about your *thoughts*—or at least how you share them publicly—because they could be used against you later. It may feel strange to admit that, especially if we believe in free expression, but we have to face the reality of permanent digital records.
+
+**Michael**:  
+Right. You have a permanent record online. Pretending that you don’t is naive. At some point, you may need to explain something you posted 10, 15, or 20 years ago to an employer, your kids, or anyone else.
+
+**Dalton**:  
+That sounds like a warning, but there’s also a huge positive side. If you use social media strategically, you can get noticed in a good way. You can build a body of work that highlights your talents and thoughts. Paul Graham, for instance, wrote essays that still impact people today. If you’re a programmer, consistently posting good code on GitHub can attract recruiters.
+
+**Michael**:  
+Yes, it’s about acknowledging that social platforms, at their core, are indifferent to whether you’re helping or hurting yourself—they only need ad views. *You* have to look out for you. That means being intentional about what you share and how often you share it.
+
+**Dalton**:  
+Right. It’s easy to see the pitfalls with photos—nobody wants to be caught in embarrassing shots. But it also applies to anonymous trolling, harsh commentary, or any impulsive post you might later regret. You can’t assume your online persona is separate from your real-life identity. That gap is closing fast.
+
+**Michael**:  
+We’ve been around long enough to see how the internet merges with real life. So here’s the takeaway: **Yes, there’s more risk now, but there’s also a lot of potential benefit.** If you treat your online presence as a feature—building a thoughtful record—you’ll likely reap rewards in the future, such as career opportunities. 
+
+**Dalton**:  
+Exactly. We’re contributing to that permanent record right now by making this video. We do our best to post things we’re proud of, because we know they’ll be around for a long time. There’s a time and place for public thoughts, and a time and place for private thoughts. It’s better to learn that before you get burned.
+
+**Michael**:  
+Right. This is one of those lessons you really don’t want to learn the hard way. Take it from people who have been in the trenches of social media: be aware, be intentional, and harness the positive aspects while minimizing the risks.
+
+**Dalton**:  
+Absolutely. Thanks for joining us on this chat, Michael.
+
+**Michael**:  
+Thank you, Dalton. Great talk.

@@ -1,0 +1,154 @@
+# Introduction
+
+Hi everyone, I'm David Lee, a Group Partner here at YC (Y Combinator). YC has a famously simple motto: **"Make something people want."** It's the purest statement of the job of startup founders, and we talk about this a lot. However, what gets talked about much less is **how** to know if you’ve actually done it. Did we make something people want?
+
+Today, I want to go deep on the single best way I’ve found to answer this question in a **quantitative** way: **cohort retention**. This is the idea of tracking what fraction of your new users keep using your product over time.
+
+There’s plenty of content on the internet about cohort retention, and it’s even built into many analytics tools. But I suspect many people don’t fully understand what it measures or how to interpret the numbers. I know this because I didn’t understand it at my startup until many years later, almost too late. I remember one specific moment: I was pitching a very prestigious VC firm for our Series A, and they asked me, “Hey Dave, how’s your cohort retention?” I gave them a **very** hand-wavy answer. After the meeting, I googled “cohort retention” and realized what I’d said made no sense. I hope this video (or text) can save you from making that same mistake.
+
+## Background on Me
+
+I did YC back in the summer of 2009 with my startup, **Bump**. Bump let you share contact information and photos with other people by literally bumping your phones together. It was one of the first mobile apps to reach more than 100 million users, but it ultimately didn’t work as a business. We did a few pivots into the photo-sharing and photo-management space, and we were ultimately acquired by Google. 
+
+At Google, our last app formed the basis for **Google Photos**, which I then worked on for nearly a decade. Google Photos today serves well over a billion users. I’ve made something that a lot of people want, but I also learned the hard way how to know when you have **not** yet made something that people want.
+
+## What Is Cohort Retention?
+
+**Cohort retention** is about separating your users into distinct groups (cohorts) based on when they first used your product, and then tracking each group’s usage over time. This reveals whether those users stick around or quickly abandon your product.
+
+### Three Things to Define
+
+1. **How to isolate cohorts.**  
+   Typically by when they first use your product—e.g., all new users in week one, then week two, or by month (e.g., January cohort, February cohort, etc.). Later, you can slice further by country, user acquisition channel, device, or other characteristics.
+
+2. **Which action qualifies a user as ‘active.’**  
+   - The simplest approach is: “Did they open our app?” or “Did they visit our site?”  
+   - A better approach is picking a **specific feature** correlated with real usage and value. Examples:
+     - **Instagram:** A user viewing at least three or more posts.
+     - **Uber:** A user completing a ride.
+     - **Google Photos:** A user tapping in and viewing a photo full-screen.
+
+   You want to filter out shallow interactions where someone quickly bounces, because that doesn’t represent true product usage or value.
+
+3. **Which time period to measure.**  
+   - Pick a granularity that matches the intended usage frequency of your product:
+     - **Daily** for a social/entertainment app (e.g., Instagram, TikTok, YouTube).
+     - **Weekly** for utility apps (e.g., Google Photos, Uber) that might not be used every day.
+     - **Monthly, quarterly, or even annually** for things like travel (e.g., Airbnb), where usage is infrequent.
+
+### Example: The Triangle (Cohort) Chart
+
+Let’s say we define cohorts by **month** and measure how many users in each cohort come back in each subsequent month:
+
+| Cohort / Month | Month 0 | Month 1 | Month 2 | Month 3 | ... |
+|----------------|---------|---------|---------|---------|-----|
+| January (12 new users)  | 12 | 6 | 4 | 5 | ... |
+| February (27 new users) | -  | 27 | X | X | ... |
+| March (...)             | -  | -  | ...| ... | ... |
+| ...                     | ...| ...| ...| ... | ... |
+
+- **Row = Cohort.** For example, all new users in January.
+- **Columns = Each subsequent month.**  
+- We track how many from the original January group came back in February, March, etc.
+
+Sometimes called a “triangle chart,” this helps visualize each cohort’s behavior. In the example:
+- January had 12 new users. In February (one month later), 6 of those 12 returned. In March, 4 returned, etc.
+- Each user is counted once per time period if they performed the chosen action.
+
+#### The Diagonal
+
+If you highlight the diagonal of this chart, you see a single **real calendar month**. If you add up that diagonal, you get the total number of active users in that particular month—across all cohorts.
+
+### Converting to Percentages
+
+Often, you convert raw numbers to percentages of the initial cohort size. For example, with 12 new users in January, if 6 return in Month 1, that’s 50%. This normalized view makes it easier to compare cohorts of different sizes. 
+
+You can then plot these percentages on a line graph: each line represents a cohort’s retention over time. The oldest cohort will have the longest line (because it’s been around the longest), while newer cohorts will have shorter lines but might reveal early trends.
+
+## What Is “Good” Cohort Retention?
+
+Imagine two products, A (black line) and B (orange line), each with retention data over multiple months.
+
+- **Early on**, Product A might retain more of its users after one or two months. Product B’s curve drops fast, losing over half its users.
+- As more months of data come in, you might see Product B’s curve eventually **flatten** around 20%. Product A’s curve might **continue dropping** toward zero.
+
+The **key insight**: **The only thing that really matters is whether your cohort curves get flat.** 
+
+- If they never flatten, you’re leaking users. You’ll always be on a treadmill just to maintain user count. 
+- If they flatten (even if it’s only 20% remaining), that means you have a stable “core” that sticks around. Over time, that core *accumulates*, and your total user base can grow significantly.
+
+For example, in the early days of Google Photos, our weekly cohort retention curves settled at around 20-40% depending on the country/device. That might sound low, but it gave us confidence that we’d keep 20% of every new cohort basically forever. Within six weeks of launch, I was sure we could eventually get 20% of the entire planet to use Google Photos. Indeed, four years later, we surpassed a billion users and have likely headed toward two billion.
+
+If your curves **don’t** flatten, it’s a sign you **haven’t** yet made something people want—at least not enough to sustain retention. 
+
+## Common Mistakes That Fool You
+
+### 1. Picking too large a time period
+By default, picking a longer time period (e.g., “quarterly” or “annually”) makes your numbers look better. More users show up at least once in three months than in one week. This can deceive you into thinking your product is performing better than it is. 
+
+**Real example**: At Bump, we intended users to use it weekly. But our weekly cohort retention looked bad. So we tried monthly, then quarterly. Of course it looked better on quarterly. However, that didn’t match how often we expected our product to be used, so it was **self-deception**.
+
+### 2. Picking too easy or shallow an action
+If your “active user” metric is just “opened the app,” you might inflate your numbers, especially if you rely on notifications or spammy alerts. People might click in and then leave immediately, never getting true value.
+
+**Google+ example**: Once, Google+ counted a user as “active” if they clicked a little red notification bell in the top corner of any Google product (Gmail, etc.). That inflated usage metrics but didn’t represent genuine engagement on Google+.
+
+**Payment as an action** can be misleading because people might pay for a product long after they’ve stopped actively using it (like subscribing to Netflix but not watching for a while). A better metric might combine payment **and** real usage.
+
+**Solution**: Pick a metric that represents meaningful usage and real value. One rubric is imagining you’re sitting beside a customer watching them use your product—ask yourself, “What would I see them doing that convinces me they’re truly using it?” Use that as your retention action.
+
+### 3. Looking at just a single point in time
+It’s tempting to say “We have 80% week-over-week retention!” But **which** week do you mean, and does it hold for subsequent weeks?
+
+- In our product A vs. B scenario, product A might look great at **week three** with 75% retention. But if it plummets by week four or five, you see the curve never flattens. You need the **whole** curve, not just one point.
+
+### 4. Misinterpreting analytics tools
+Many analytics suites offer cohort retention charts, but they might be measuring something subtly different than what you think—like rolling retention or “returned at least once by a certain date” instead of “returned during this specific period.” 
+
+**Advice**: Generate your own retention charts at least once from raw logs (or a spreadsheet) to understand the details. Then verify your analytics tools match the same numbers.
+
+## How Often to Check Cohort Retention
+
+You don’t need to check these charts multiple times per day—maybe weekly or bi-weekly refreshes are good. However, **when** things go south, you want to catch it quickly. More likely, from the start, you’ll see the retention curve not flattening and realize you need to talk to users and improve your product.
+
+## Improving Cohort Retention
+
+When your curves aren’t flat, here are some steps:
+
+1. **Improve your product.**  
+   - Introduce new features or use cases.  
+   - Speed it up or simplify flows.  
+   - These changes should shift your curve upward over time.
+
+2. **Acquire better users.**  
+   - If your current user acquisition strategy brings you people who don’t need the product or quickly drop off, that drags down retention.  
+   - Consider targeting different geographies, demographics, or segments.  
+   - At Google Photos, we saw a marketing push to target younger users. Those cohorts had worse retention because they didn’t have large photo libraries or the desire to reminisce.
+
+3. **Improve first-user experience (onboarding/activation).**  
+   - Sometimes you have a great product, but new users fail to get on track. They never reach a “success state.”  
+   - Invest in teaching them how to use it and integrating it into their workflow. This can often be an easy fix to boost early retention.
+
+4. **Leverage network effects (if applicable).**  
+   - In social, sharing, or messaging apps, more users can make the product intrinsically better for everyone.  
+   - Cohorts might improve if existing users find more connections, more valuable content, or more reasons to return.
+
+### The Holy Grail: Upward-Turning Cohorts
+
+If your cohorts don’t just flatten but actually **go up** over time, that suggests existing users adopt more usage or additional features, or new user acquisition is driving more value for older cohorts (network effects). That’s the absolute best scenario.
+
+## From Retention to a Huge Company
+
+Let’s return to the original triangle chart and see how it translates into overall active users. If we align each row by **calendar month**, we can see who’s active in, say, December from all previous cohorts. 
+
+Plotting this is known as a **layer cake chart**. Each layer represents one cohort. If the top line grows significantly, and older cohorts remain thick (meaning they haven’t churned away), you’re accumulating a large user base over time—a beautiful sight for any startup.
+
+## Conclusion
+
+Cohort retention is an incredibly powerful way to see if you’ve made something people want. It’s not enough to look at total user count or some single retention number—you need **cohort retention curves** that flatten (or rise).
+
+- **If your curves don’t flatten**, you haven’t yet found that product-market fit. Go talk to your users, fix your product, adjust your acquisition strategy, or improve onboarding until those curves flatten. 
+- **If they do flatten**, even if it’s 20%, that core audience might be enough to eventually build a massive company. 
+- **If they rise**, you’re truly onto something special.
+
+Above all, remember: the shape of the curve is what matters—not just a single retention percentage in a single time slot. Focus on flattening those lines and watch your user base grow into a thriving, enduring business.

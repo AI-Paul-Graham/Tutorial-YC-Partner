@@ -1,0 +1,69 @@
+# Canvas
+
+You got to figure out your technique for cutting through the bureaucracy you've built to understand what's really going on. I think the encouraging thing from Brian's talk is that it doesn’t matter how big your company or its bureaucracy is—you can still change it.
+
+This is Dalton plus Michael, and today we’re going to talk about founder mode. We were at a YC alumni event, where Brian Chesky spoke, and we've also interacted with many YC late-stage founders over the years. We have a good sense of what happens when companies get to later stages, and I think a lot of people in the room that day were very excited.
+
+## The Context
+
+We did a special event just for growth-stage (late-stage) YC founders—companies making tens of millions or hundreds of millions of dollars in revenue. These were not small, two-person startups but significantly larger teams. We brought them together to learn from each other and share notes.
+
+Brian Chesky, the co-founder and CEO of Airbnb, was one of the speakers. He has faced all sorts of challenges in running a late-stage company. The prompt he was given was to speak specifically to later-stage companies about what he went through at Airbnb, and what founders at a similar stage need to hear.
+
+## Losing Touch as You Scale
+
+The core message—one that’s hard for early-stage founders to understand—is that when you’re running a late-stage startup and have to hire executives, plus layers of management, it becomes hard to really sense what’s happening inside your company. You quickly exceed Dunbar’s number (the cognitive limit to the number of people you can maintain stable social relationships with). Before you know it, the people you do know well might not be the ones talking to customers, writing code, or doing design. If you don’t carefully curate who you stay close to, you become disconnected.
+
+In that state, you start to feel like you’re operating a marionette. You’re no longer using your own hands or seeing with your own eyes. It’s just layers of people, which makes it harder to know where your company truly stands. This is a very common problem for late-stage founders.
+
+### Why Bureaucracy Happens
+
+When a company grows to thousands of people, bureaucracy creeps in. Bureaucracy isn’t just a government problem; it’s an organizational problem. Suddenly, many people need to sign off on a single decision. More layers of approval get added because of one-off incidents—every time something bad happens, we declare, “This can never happen again!”—and a new rule or process is bolted on.
+
+All of this red tape pushes out what’s really important:
+- Talking to your users.
+- Understanding their complaints and problems.
+- Using your product yourself.
+- Knowing how your product fails people.
+
+It’s strange to say, but as bureaucracy builds, these fundamental tasks slip further down the priority list. You might be tempted to delegate them, telling others, “You go do what I used to do: serve the customers,” while you manage all the internal complexity. That mentality is where trouble starts.
+
+## The Conventional Wisdom and Its Flaws
+
+Investors and boards tend to push you into hiring a big management team with impressive resumes. There’s an assumption these experts know better than the founder. So you, the founder, should step aside, delegate, and stay out of day-to-day details. While no business book would outright say, “Hire executives and go on vacation,” there’s a strong pressure to remove yourself from direct engagement.
+
+But when this isn’t done well, you end up with a management team that isolates you from what’s really happening. Suddenly, you’re disinvited from meetings at your own company. People view the founder’s involvement as “causing problems,” and the founder ends up on the sidelines.
+
+The fundamental point is that while there’s no direct manifesto that says “Founders should stay out of the details,” conventional wisdom still nudges you in that direction. Brian Chesky’s talk—and Paul Graham’s writing on “founder mode”—pushes back on this narrative. The idea is to remind founders that you should not be removed or siloed in your own company. You need strategies to remain connected to the details that matter.
+
+## Cutting Through the Bureaucracy
+
+Parker Conrad from Rippling also discussed a tactic he uses when a problem escalates all the way up to him. He recognizes that if a serious issue makes it to his desk, multiple people below him have failed to solve it. Rather than pass messages down the chain of command—which rarely works—he gathers every layer of management from himself down to the individual contributor responsible for the relevant work. Then, as a group, they directly talk to that IC to figure out the real story and devise a solution. 
+
+Anyone below Parker in the hierarchy could have done that themselves, but they didn’t. This sends a strong signal: “If I can do it, you can do it. And we need to fix this problem at its root instead of letting it climb to my desk.”
+
+It’s one example of a founder’s technique to cut through bureaucratic complexity and learn exactly what’s going on. Brian Chesky emphasized that founders need to figure out their own methods for doing this. If the people you hired are preventing you from staying connected, that’s a problem.
+
+## Hiring the Right Executives
+
+When you hire great managers and executives, they understand the importance and authority of a founder. Good executives leverage that founder/CEO authority to accomplish big objectives; they don’t shield the company from the founder. They know that synergy is vital.
+
+However, it’s really hard to hire amazing executives. They are scarce, and huge companies can pay them much more. Even at $100M in revenue, it’s challenging for a startup to attract the very best. Often, you end up with B- or C-tier executives who need extra oversight. This leads many founders into the trap of micromanaging or being too distant—the exact dynamic that Brian Chesky was warning about.
+
+## Decontextualized Debates
+
+After the “founder mode” essay and Brian’s talk spread online, it got decontextualized. People on social media turned it into clickbait about topics like investors vs. founders. In reality, Brian wasn’t blaming investors at all. He specifically said that if a founder gets sidelined, it’s mostly the founder’s own fault. Airbnb’s bureaucracy wasn’t the fault of any single executive or the board; he owned up to the mistake himself.
+
+Yet, once it went viral, it became a Rorschach test: everyone projected their own opinions and frustrations onto it. This is a classic case of how the internet can transform a nuanced idea into a flame war.
+
+## Conclusion: Reclaiming Founder Mode
+
+If you’re one of the lucky founders dealing with the complexity of a thousand-person organization, remember that you can still reclaim direct control. As Brian’s example shows, even if your company has grown huge, you can actively break down the bureaucracy and reconnect with what truly matters: your customers and your product.
+
+The key is to realize that:
+1. **You are responsible for the structure of your company.** If bureaucracy has become a problem, it’s on you to fix it.
+2. **Staying in “founder mode” means staying close to users, product details, and reality.** Avoid the trap of delegating yourself out of relevance.
+3. **Good executives partner with you, not isolate you.** If they’re trying to shield employees or product decisions from your input, that’s a red flag.
+4. **It’s never too late to make changes.** Airbnb is one of the biggest tech companies in the world, and Brian still managed to reform its approach.
+
+This is the important takeaway of Brian Chesky’s talk for late-stage YC founders. It’s a lesson in keeping the founder’s hands on the product and the customers—even after you’ve built layers of management—because that’s how you preserve the innovative spirit that got you started in the first place.

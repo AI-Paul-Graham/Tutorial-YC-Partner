@@ -1,0 +1,102 @@
+# Early-Stage Startup Lessons from YC
+
+Every founder looks at Airbnb and imagines that, in its earliest days, it must have been something truly special. In reality, though, most startups at the beginning look very similar—scrappy teams of founders in small rooms with only the faintest glimmer of product-market fit. They don’t see the early trials, pivots, and countless small decisions that lead to success. Companies like Airbnb, Stripe, and Dropbox were once indistinguishable from other startups just getting off the ground. We tend to see them only on a pedestal, not as they actually were on Day Zero.
+
+What truly makes these companies “great” are the thousands of decisions made along the way. Every company, no matter how successful it becomes, has to start somewhere. Below are stories from several Y Combinator (YC) interviews and early-stage companies, offering insight into what actually happens in the 0–1 phase of startup life.
+
+---
+
+## Solugen: Selling Hydrogen Peroxide from a Garage
+
+**Jared**: I would love to talk about Solugen. I really like those guys. I’ve talked to them a few times, but I wasn’t in their interview. What was that like?
+
+Solugen produces industrial chemicals, primarily hydrogen peroxide. Initially, they had invented a new process for making hydrogen peroxide using an organic catalyst. This meant they didn’t need massive heat and high pressure, and the process was much less dangerous. They started by making very small batches. Their goal was to generate revenue and prove they had a real business—so rather than raise a huge round to build a giant facility, they literally set up shop in a garage and sold bottles of hydrogen peroxide to anyone who would buy.
+
+**Jared**: In the old days, YC interviews were in-person. People would actually bring their hardware, and if it was food, we’d taste it. Solugen brought in a beaker of hydrogen peroxide to the interview. I think it was most of the hydrogen peroxide they had at the time. They showed us they could actually make it. 
+
+Their approach was extremely scrappy: they wanted to demonstrate real traction. Today, they have a large plant in Houston shipping out tanker trucks full of hydrogen peroxide every day.
+
+**Why Did YC Fund Them?**  
+1. **Expertise** – They clearly had strong backgrounds in the science.  
+2. **Doer Mentality** – Unlike many academic science teams that never leave the lab, these founders were out selling what they’d made, with no one’s permission but their own. They were ready to figure things out along the way.
+
+---
+
+## CaptivateIQ: Building a Demo Before Customers
+
+CaptivateIQ, a software tool for calculating and automating sales commission payouts, came into YC (Winter 2018) with little more than a demo. One of the founders had built a simple product, but they had no paying customers. They claimed that, in the US, there were only two major incumbents—both large and bad.
+
+Often, founders think they should look for a market with zero competitors. But having large, entrenched incumbents is actually a good sign: It means the market already pays for the product, and incumbents have been stagnant for years. In the end, CaptivateIQ’s pitch turned out to be correct: They positioned themselves as a better solution in an established (and lucrative) space.  
+
+**Takeaway**: Many successful startups begin with only a demo or a rough product. The real deciding factor is whether the founders show promise, technical skill, and the desire to tackle a real, validated problem.
+
+---
+
+## Pivoting is Normal: Brex, Segment, and Amplitude
+
+Many of YC’s most successful startups pitched entirely different ideas during their interviews. These pivots are not necessarily failures but part of the journey.
+
+### Amplitude
+Amplitude went through YC in 2011. The founders initially pitched a voice-to-text Android app for texting while driving. Interviewers doubted the idea because Google was already deeply invested in voice tech. Yet the founders’ intensity and “irrational” commitment stood out.
+
+It took them a year and a half post-YC to discover what became Amplitude, an analytics platform that would eventually go public. Their story illustrates how far determination can carry a team once they find the right direction.
+
+### Brex
+Brex is now a giant in corporate credit cards for startups, but in their very early days, they pitched YC on a virtual reality idea. This pivot to fintech came later when they recognized a far larger opportunity they had the expertise to tackle.
+
+### Segment
+Segment’s founders initially brought an edtech tool to YC—software for classroom polling. Nobody wanted it. But the founders were talented, stubborn, and mission-driven. They kept iterating until they developed Segment, an analytics API platform eventually acquired by Twilio for over $3B.
+
+**Key Lesson**: Founders who succeed are often tenacious to a fault. They go all-in, even if it means spending a long time heading in the wrong direction. Once they find the right direction, their intensity makes them unstoppable.
+
+---
+
+## Clear, Concise Communication: Jeeves
+
+**Brad**: One company that comes to mind is Jeeves, a digital bank for startups outside the US. At the time of their YC interview, they had no substantial traction—just an idea, a bit of homework, and a few early customers. They did, however, communicate what they had done extremely succinctly.
+
+**On the Application**:  
+> *“We’ve completed a deal with our first bank partner and are ready to start onboarding initial customers.”*
+
+That was it. No paragraphs of fluff. During the interview, they were honest about what they didn’t know, and they didn’t try to hide their limited traction or inflate achievements. Instead, the conversation felt genuine and clear. This clarity and confidence stood out. The interviewers thought, “If this succeeds, it could be huge,” and that was enough to invest.
+
+---
+
+## The “Quirky” Outliers
+
+**Diana & Michael**: The best founders are rarely well-rounded. They’re quirky because you need to be many standard deviations away from “average” to build a breakthrough company. The strategy that gets you great grades, into top schools, or a cushy Big Tech job doesn’t always translate to founder success. The founder path is too uncertain. It requires obsession, specialization, and a willingness to take big, risky bets.
+
+There’s a certain obstinance—an “irrational” intensity that keeps them going even through failures. That same quality can lead them astray at first (e.g., Segment’s edtech or Amplitude’s voice-to-text), but it’s also what eventually drives them to succeed once they find their true direction.
+
+---
+
+## Turning Luck Into Opportunity
+
+**Harge & Pete**: Luck isn’t entirely out of your control; you create your own luck by staying determined, always shipping, and being in the right place at the right time. This rarely happens on your first try. Persistence, openness to feedback, and willingness to pivot matter far more than initial traction or a perfect early idea.
+
+Amplitude’s story is a perfect illustration. They pitched something seemingly doomed from the start. But the founders’ fire convinced us to fund them. That drive ultimately led them to pivot toward a massive opportunity in analytics.
+
+---
+
+## Don’t Copy Mature Startups—Focus on Their Early Struggles
+
+**Serbia & Aaron**: Founders often look at success stories like Airbnb and assume they had an uninterrupted climb to greatness. The truth is, every big company has skeletons: failed ideas, near-death experiences, and countless moments of doubt.
+
+Media outlets don’t emphasize these hardships. But if you focus only on the glossy headlines, you miss the real lessons. Real startups are messy; they start with no users, no money, and half-formed ideas. 
+
+**Case in Point: Nourish**  
+A healthcare company called Nourish recently raised a notable Series A. They’re all over the news. But what most don’t see is that they spent the entire YC batch pivoting—five times—before striking gold. The founding team was always impressive, but the breakthrough came only after numerous false starts.
+
+---
+
+## Conclusion
+
+Truly legendary startups aren’t born fully formed—they’re shaped by tough decisions, uncertainty, mistakes, and sometimes painful experiences. Y Combinator’s group partners have seen more 0–1 startups than anyone on the planet, and our biggest lesson is that grit and determination matter far more than anything else in the earliest days.
+
+- **Be “doers.”** Move quickly, adapt, and put real product in people’s hands.  
+- **Don’t fear pivots.** Some of the most successful startups changed directions multiple times.  
+- **Be concise and transparent.** Investors value clarity over hype and inflated traction.  
+- **Embrace being a bit extreme.** It’s the outliers who build truly transformative businesses.  
+- **Create your own luck.** Stay in the game long enough, and keep iterating until you find the right path.
+
+In the end, it’s not about replicating Airbnb’s final form—it’s about matching their tenacity, resourcefulness, and willingness to learn from every step of the journey.

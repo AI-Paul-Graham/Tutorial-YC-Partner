@@ -1,0 +1,138 @@
+# The Battle Between Apple and Facebook: Web, Mobile, and Now AI
+
+### Introduction
+**Dalton**:  
+I think Apple doesn't want the mobile battle to end. I think Apple wants AI to be the reason why we have another 10-year phone upgrade cycle. As long as the mobile battle is going, Apple has an advantage.
+
+**Michael**:  
+Welcome to Dalton plus Michael. This week, we're going to talk about the battle—let's call it a battle—between Facebook and Apple. One of the cool things is that we've been around for a while and have seen a number of these fights. We’ll break it down into three:  
+1. Web (when we were young)  
+2. Mobile (we both played in that game)  
+3. A new battle that might be brewing  
+
+Maybe we can glean lessons from the past wars to inform what founders should do today.
+
+---
+
+### Battle #1: The Web Era
+
+**Michael**:  
+Let's talk about the web era first. The main way you’d launch and grow a product was to build a website, have some viral email mechanism, get people to sign up, and hopefully have them invite more people. This was roughly from 2000 to 2009—maybe 2002 to 2009. The browser was the platform, and it was relatively neutral territory.  
+
+At the time, Windows had dominated the desktop application world. Then along came the browser, which was kind of neutral, and web app developers loved it. It was much easier to distribute a product via a browser than asking users to install desktop software.  
+
+Remember Napster? Back then, you had to download an executable file, run it, and install it on your computer. That was the norm before the web era, so going from that to “just go to a website” was huge.  
+
+**Dalton**:  
+This was also the era when Steve Jobs had just returned to Apple. Apple was getting its groove back, with the first iMacs and some of the first noteworthy Apple laptops. But most people still thought Apple was a struggling company. There was a time Apple was almost out of money, and Bill Gates at Microsoft invested in them—partly to help Apple stay afloat, partly to address antitrust optics.  
+
+**Michael**:  
+In that web era, Facebook was the dominant application, and it basically won that battle. People didn't even feel like Apple was playing in that world. Apple’s attempts at web products then (pre-iCloud) were minimal.  
+
+Facebook, though, also tried to be a platform provider—like Windows had been. Both of us participated in that as developers. There was a question: could Facebook, like Microsoft, be a platform supporting billion-dollar businesses? We got interesting verdicts there.
+
+**Dalton**:  
+The most positive example was Zynga with Farmville. That was built on Facebook's platform. Facebook also helped Spotify when it launched in the US, helped Pinterest grow, etc. But some of the bigger hopes around the Facebook platform didn't fully pan out.  
+
+**Michael**:  
+From the outside looking in—and also as an app developer—it felt like Facebook was torn on the platform idea. On one hand, opening it up brought tons of activity and growth. On the other hand, they risked enabling competitors. The platform would launch big, then get restricted, then relaunch, then get restricted again. Meanwhile, Microsoft had been a much more stable platform provider.  
+
+**Dalton**:  
+So in that first battle, Facebook won, and Apple wasn't even seen as participating in a major way.  
+
+---
+
+### Battle #2: The Mobile Era
+
+**Michael**:  
+Now we move to the mobile battle. Let’s not bury the lead: Apple won; the App Store won.  
+
+**Dalton**:  
+Before the iPhone, there were smartphones, like the Motorola Razr, the Palm Treo, BlackBerry, etc. They could run apps, but you had to sideload Java bundles or .jar files. It was awkward. Sam Altman's startup, Loopt, was making smartphone apps before the iPhone, meaning they supported all these weird feature-phone configurations.  
+
+**Michael**:  
+When the iPhone launched, at first there was no App Store. The idea of third-party apps felt tertiary, because Apple planned to build most of the software themselves. That changed quickly.  
+
+**Dalton**:  
+The story I heard—possibly from Steve Jobs directly—was that Jobs didn't want to do the App Store at first. People inside Apple argued that Apple didn't have enough engineers to build every important application. If they opened up, outside developers could make thousands of apps, making the iPhone more valuable. Apple would then share revenue with developers, but Apple would also control quality and approvals.  
+
+**Michael**:  
+From an app developer’s perspective, Apple restricted what we could do for a while; certain APIs weren't accessible. But eventually, the App Store ecosystem exploded.  
+
+Meanwhile, Facebook came late to mobile. They were still a web-based company trying to monetize there, so they made bets like HTML5 apps instead of going fully native. Ultimately, they had to acquire their way in—buying Instagram and WhatsApp—to get strong in mobile.  
+
+**Dalton**:  
+Instagram’s team was about 13 or so people when acquired; WhatsApp was maybe around 100. Both leveraged the Apple platform. For reference, WhatsApp was doing more telephony traffic than large telecoms, which had hundreds of thousands of employees. But WhatsApp managed it with a tiny team.  
+
+**Michael**:  
+These acquisitions might not have been allowed today. That was a different regulatory time.  
+
+Now, the iPhone's been out for a while. We've both noticed that the upgrade cycle is slowing—people aren’t as compelled to buy a new phone every year. It used to be you’d upgrade because you needed 3G, or video recording, or a major new feature. Now it’s just incremental improvements, like a better camera or a new charging port.  
+
+**Dalton**:  
+Yes, the iPhone 10 might have been my peak excitement. Now it’s mostly camera updates or going from Lightning to USB-C. This suggests maybe the mobile battle is winding down. Apple clearly won that one, and the App Store is mature.  
+
+---
+
+### The Next Battle: AI
+
+**Michael**:  
+Now there's possibly a new battle. We see Facebook investing heavily in AI, especially open-source AI, and also investing in new devices like glasses or VR. They might be trying not to repeat mistakes from the mobile era.  
+
+**Dalton**:  
+Yes, if you look at AI, the most open company today is Facebook (Meta). They’re all-in on open-source AI, likely because they realize how important it is not to be dependent on someone else’s closed platform.  
+
+**Michael**:  
+In parallel, Apple doesn't want the mobile battle to end. Mobile is where Apple has its massive advantage—monetizing via the App Store. Apple might look at AI and want to fold it back into the iPhone, so there’s another long phone-upgrade cycle.  
+
+Regarding Apple’s VR headset: maybe that's another potential platform. But it doesn’t look like it made a huge dent in its first generation. A next or third revision might be needed to see if it’s truly a platform competitor.  
+
+---
+
+### Lessons and Tactics for Startups
+
+**Michael**:  
+So if I'm a startup founder looking at AI, seeing how the mobile device world is slowing down, and seeing that VR isn't quite mainstream yet—what should I do?  
+
+**Dalton**:  
+First, the bar is a lot higher for consumer products than it used to be. In the early 2000s, you could launch almost anything on a website and people would check it out because they were bored and there was less competition. Now, there's TikTok and YouTube—essentially infinite entertainment.  
+
+So your product has to be more interesting or more useful than these highly addictive platforms. It’s tough because those companies are also innovating to keep users inside.  
+
+**Michael**:  
+The tools, however, are better than ever. You can build AI products that do things like call a local business, talk to a human, get info, summarize it, and return the result to you, all automated. That’s magical. AI can offer hyper-personalized experiences that older platforms never could.  
+
+**Dalton**:  
+Right. Voice can now be integrated. The AI phone call example is here—an AI can navigate a phone menu and talk to a human without the human even realizing. The possibilities are huge.  
+
+Also, these underlying communication channels—voice, SMS, email—are more open than app stores or Facebook’s platform. They have big installed bases and global reach. Apple or Google might own parts of them, but not to the extent they own the iOS App Store. So that’s an opportunity for startups.  
+
+---
+
+### Are We in a 'Palm vs. BlackBerry' Moment?
+
+**Michael**:  
+When we built iOS apps, it was clear the iPhone had won. Do we have that clarity now in AI? Or are we still in a pre-iPhone, “Palm vs. BlackBerry” mess?  
+
+**Dalton**:  
+It's too early to say. ChatGPT could be like Netscape—an iconic first mover that proves the category but eventually gets overshadowed by Microsoft or Google or Apple offering it for free. Those big companies are very aware of the stakes. They might just bundle AI into their platforms or OS.  
+
+**Michael**:  
+Yes, it’s way too early to call it. The difference now is all the big players—Google, Microsoft, Amazon, Apple—are in. And they’re not exactly incentivized to cooperate.  
+
+---
+
+### Conclusion
+
+**Michael**:  
+So the TL;DR:  
+1. History shows that battles have phases, and platforms can shift from neutral ground (web) to closed ecosystems (mobile) to something new (AI).  
+2. Apple dominated mobile; Facebook had to adapt.  
+3. The next big platform might be AI or mixed reality, but it’s still unfolding.  
+4. For startups, new open channels—like voice calls, SMS, email—are worth exploring because the big companies haven't fully locked them down. AI integration can be magical.  
+
+**Dalton**:  
+Exactly. Looking at how these past wars played out can help founders strategize. AI is introducing new ways to build experiences, and some of the largest channels (voice, SMS, email) remain more open than app stores. That could be a huge opportunity.  
+
+**Michael**:  
+Thanks, Dalton.  

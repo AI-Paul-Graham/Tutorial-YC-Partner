@@ -1,0 +1,182 @@
+# How to Write Cold Emails That Convert
+
+Hi, I'm Aaron Epstein, a Group Partner at YC. In this text, we're going to talk in detail about how to write cold emails that convert—whether it's for sales, recruiting, partnerships, user research, or even reaching out to mentors for advice. Most cold emails are actually terrible, and the bar is low. By following the guidance here, your emails will stand out and increase your chances of getting the responses you want.
+
+---
+
+## The All-Time Best Email Outreach Hack
+
+**Get a warm intro.** This is the single most effective way to get people to respond to you. Emails that come with a warm intro convert at two to three times the rate of a typical cold email.
+
+Ways to find a warm intro:
+- Use your network (friends, friends-of-friends, coworkers, etc.)
+- School alumni networks
+- Former employer alumni networks
+- LinkedIn (common connections or InMail from known contacts)
+
+However, sometimes a warm intro isn’t possible. In those cases, you have to go in cold. The rest of this text focuses on succeeding with cold outreach.
+
+---
+
+## Mapping Out Your Funnel
+
+When sending cold emails, start with your goal and work backward to build your funnel. A typical conversion funnel for a B2B software company might look like this (note that your numbers may differ):
+
+1. **Goal**: 1 new customer
+2. **Demo to Customer Conversion Rate**: 10%  
+   - Therefore, you need 10 demos to get 1 customer.
+3. **Responses to Demo Signups**: 25%  
+   - That means 40 responses yield 10 demos.
+4. **Opens to Responses**: 10%  
+   - That means you need 400 opens to get 40 responses.
+5. **Emails Sent to Opens**: 50%  
+   - That means you need to send 800 emails to get 400 opens.
+
+If your goal is to get one customer, you might need to send **800 cold emails**. This demonstrates the volume often required. Don’t just send a handful of emails and expect substantial results. Plan on doing this manually at first to understand what works—then scale.
+
+**Note**: Your conversion rates will differ based on your industry, target audience, and brand. Always track your funnel, measure, and improve where your conversion rate is lowest. Also, remember that conversion rates may decrease as you scale, so optimize your copy and targeting first before trying to send mass emails.
+
+---
+
+## Increasing Open Rates
+
+### 1. Better Targeting
+Targeting is about finding the people who actually want or need what you’re offering. This is the highest-leverage way to improve open and response rates. It’s far better to send 100 highly targeted emails than 1,000 untargeted ones.
+
+### 2. Subject Line and Sender Name
+- **From**: Use your personal name. It feels more human than a company name.
+- **Subject Line**: Keep it simple, short, and relevant. Examples:
+  - *“Hey—quick question”*
+  - *“Can I get your advice?”*
+  - *“Help a fellow founder?”*
+  - *“Hello from [Company Name]”*
+
+### 3. Ideal Channels
+- **Email** is usually best.
+- **LinkedIn** can work but is often flooded with spam or ignored in some industries.
+- **Text messages** can be too personal if you haven’t been given explicit permission.
+
+### 4. Finding Strangers’ Emails
+- Ask mutual acquaintances (though a warm intro is better if possible).
+- Look at LinkedIn, personal blogs, websites, or LinkedIn Sales Navigator.
+- Guess the email format if you know the company pattern.
+- Use tools like [apollo.io](https://apollo.io), [hunter.io](https://hunter.io), or Clearbit.
+
+### 5. Building Your Personal Brand
+Early on, people often won’t know your company. **You** are the brand. Make your emails personal and show your dedication. If you can, include your personal cell number or highlight how seriously you care about solving their problem.
+
+---
+
+## Getting More Responses: 7 Principles of Effective Email Copy
+
+Once someone opens your email, the content must compel them to respond. These seven principles will help you write emails that stand out.
+
+1. **Have a Focused, Specific Goal**  
+   - Aim for one outcome: a response, a click, an introduction, etc. Don’t create a “paradox of choice” by asking for multiple actions in one email.
+
+2. **Be Human**  
+   - Show emotion: “I’d love to…,” “I really appreciate…,” “It would mean a lot if…”  
+   - Use informal language. Typos and slight imperfection can sometimes make it feel more genuine (but don’t go overboard or lose clarity).
+   - Write as though you’re talking to a friend. Read it aloud. If it sounds stiff or awkward when spoken, rewrite it.
+
+3. **Personalize**  
+   - Generic spam is obvious. Reference something specific—an uncommon commonality you share, a part of the recipient’s product or background that’s unique to them.
+   - Do the work to research the recipient. Show genuine interest and knowledge about their context.
+
+4. **Keep It Short**  
+   - People often read on their phones. Long paragraphs create friction. Short emails are easy to reply to or act on immediately.
+
+5. **Establish Credibility**  
+   - Mention things like YC, well-known customers, notable schools or companies in your background, or relevant impressive data points.
+   - Use social proof: “Uber, Fitbit, GoPro, and others are already using our service.”
+
+6. **It’s About the Reader, Not You**  
+   - Remove “I/me” language and focus on “you/your” language.
+   - People don’t care about your journey unless it directly helps them. Show how what you do solves their problems, not how great your company is for you.
+   - Don’t make demands; you’re in their inbox and on their time.
+
+7. **Have a Clear Call to Action**  
+   - End with a clear, concrete Next Step. Example: “Reply to let me know,” “Click here to get started,” or “Can you introduce me to [Name]?”
+   - Make that CTA a standalone line or paragraph to catch the reader’s attention.
+
+If you follow these seven principles, you’ll already be in the top 5% of cold emails.
+
+---
+
+## Following Up
+
+One email is often not enough. People get busy, forget, or are on vacation. Plan to send **two, three, or even four manual follow-ups** if necessary. Wait a few days between emails. Get creative with each follow-up if you want to stand out. However, respect boundaries: there’s a fine line between being persistent and being annoying. If you don’t hear back at all, move on and consider trying again in a few months.
+
+---
+
+## Examples: Good vs. Bad
+
+### Ineffective Examples
+
+1. **Shipment Service Email**  
+   > “Hope all is well. I noticed your order processing time could be faster. Our company plugs into your e-commerce platform...guarantees all orders are fulfilled...within one day...”
+   
+   **Problem**: The recipient’s startup sells digital design assets, not physical products. The targeting is off, so it’s irrelevant.
+
+2. **“Generic Collaboration” Email**  
+   > “Hey there, hope you are doing great...do you partner with companies or collaborate somehow to make extra bucks...?”
+   
+   **Issues**:
+   - No personalization (“Hey there”).
+   - Vague ask (“collaborate somehow to make extra bucks”).
+   - No signature or name at the end.
+
+3. **All About The Sender**  
+   > “Hi, my name is ____ from the Philippines. I saw your LinkedIn profile...I am a freelancer that offers contractual work...I can help assist you in your sales team...”
+   
+   **Issues**:
+   - Focused entirely on “I/me” rather than the recipient’s needs.
+   - No specific reason why the recipient should care.
+
+### Effective Examples
+
+1. **Subject Line: “Go Terps”**  
+   - The sender referenced the fact both they and the recipient went to the same university (Maryland Terrapins).  
+   - Created a sense of connection with an *uncommon commonality* (“spent time in Van Munching Hall”).
+   - Clear, concise ask: “If you have a few moments, let me know the best email to send you the doc for feedback.”
+
+2. **Creative Market Example** *(An internal recruitment email for a new marketplace)*  
+   > “Want to be one of the first Creative Market Sellers and start adding your stuff? We’re just starting to open the doors...here’s a special link...It’s still super early, so I’d love any thoughts or feedback...Don't share info or screenshots...Welcome to the club...”
+   
+   **Positives**:
+   - Makes the recipient feel special and “in the club.”
+   - Informal style, short sentences, and direct call to action: “Here’s a special link to start.”
+
+3. **Smoothie Party “Before and After”**  
+   **Before**  
+   > “Hey, we're in the current YC batch hustling for our Demo Day goal. Can you forward me to your office manager to chat about trying our delicious smoothies in exchange for feedback...?”
+
+   **After**  
+   > “Subject: Smoothie Party (current YC company)  
+   > Hey [Name], I'm Oliver, founder of Snack Blends from the current YC batch, and I'd love to throw a free smoothie party for your entire team at your office. It’s like a happy hour, but smoothies—and free! Interested?  
+   > All we ask is for some quick feedback on the smoothies. Is there an afternoon I can come by? Thanks!”
+
+   **Positives**:
+   - Re-framed as *what’s in it for the recipient* (free smoothies for the office).
+   - Simple, friendly style with a clear CTA: “Is there an afternoon I can come by?”
+
+---
+
+## Final Advice
+
+1. **Do It Manually First**  
+   - Learn what resonates before automating. Write these emails yourself. Block out hours each day to do it well.
+
+2. **Track Your Funnel**  
+   - Know your numbers at each step: send → open → response → demo → conversion.
+
+3. **Founders Should Send**  
+   - Recipients will take emails from the CEO/founder more seriously than from an intern or automated address.
+
+4. **Send Enough Volume**  
+   - Realistically, you might need to send **dozens of emails per day**—up to 50 or more—to see meaningful results.
+
+5. **Personalization and Persistence**  
+   - Use the advantage of being small to deliver a personal, human approach. Stay politely persistent with follow-ups.
+
+By personalizing, being human, and focusing on the prospect’s needs, you can drastically boost your cold email response and conversion rates. Good luck!

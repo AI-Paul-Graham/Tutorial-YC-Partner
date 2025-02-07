@@ -1,0 +1,89 @@
+## Conversation: Dalton + Michael Discuss AI
+
+**Dalton**:  
+If you just look at the rate of change and the rate of new models coming out and new techniques, it doesn’t seem like we’ve hit the scaling wall. And again, if you believe that—which I happen to believe—and you just project forwards, this stuff is going to get better and better.
+
+**Michael**:  
+Hello, this is Dalton plus Michael, and today we’re going to talk about AI. It’s officially blowing our minds. AI is working. If you’re watching this video, you probably also agree that AI is working.
+
+### Leveraging Knowledge of AI
+**Michael**:  
+You have the knowledge, but are you leveraging this knowledge like you’re living in the future? What should you be doing differently, knowing what’s coming? How can you prepare for the future?
+
+We’ve seen similar shifts before. We lived through the first static web pages, the first dynamic web apps, the rise of smartphones, and Bitcoin. Knowing that a new technology is not a fad, but an actual trend, early on, can be one of the most strategic pieces of information you can have. If you’re aware of how the world’s going to change, and you sit on that information, you won’t be able to take advantage of it.
+
+If you change something right now because of AI—maybe more than one thing—you might look back in 10 years and say, “Wow, my life worked out. That was really, really great.”
+
+### Looking Back for Context
+**Dalton**:  
+Let’s look back in time for mental context:
+1. Imagine you were using the first web browsers or first websites and realized, “This is a thing,” while most people didn’t have the web.
+2. Imagine you were one of the first users of Gmail and discovered a responsive, dynamic web app that felt “instant.”
+3. Imagine you were among the first iPhone users.
+4. Imagine you saw Bitcoin come out in its first year.
+
+In hindsight, there were ways for early adopters to leverage that information in ways that profoundly improved their lives. If you were early and acted on it, it could completely change your life.
+
+You are early now with AI. Let’s talk about what you should do.
+
+### 1. If You Want to Start a Company
+**Michael**:  
+If you were ever interested in starting a company, I can’t really imagine a better time. Most of the best companies were created right after a tech sea change—when Founders noticed a shift and then imagined what they could do with it.
+
+People might say AI is overhyped or there are too many AI startups. But if we look to history, we see that you need enough users, and you need the technology to be good enough, for these startups to really take off. If you started an internet startup in ‘94 or ‘95, it might have been too early. But it’s much better when there is enough of an install base and the technology, infrastructure, and models have matured. That’s where we are with AI.
+
+**Dalton**:  
+We’ve already seen YC companies transform in the last six months because of these AI tools. Businesses that weren’t working started working. Margins that were underwater are suddenly positive. Customers who were lukewarm are now more interested. Don’t let haters talk you out of starting something in AI.
+
+And, yes, YC applications are open. We have four batches a year, so we can certainly help if you’re interested.
+
+### 2. If You Want to Work Somewhere
+**Michael**:  
+If you don’t want to start a company, consider where you work. You want to work somewhere adopting these tools—where they will benefit from the adoption of AI, and where you can be surrounded by people who are very smart at adopting AI tools. It’s crucial to learn from people like that, rather than from those hoping AI goes away.
+
+You also want to work somewhere you can be mentored by the folks who are excellent with these tools. It will be increasingly important to have mentors that can teach you how to use AI. Think about choosing a place where the tools are great, and the people there can teach you how to use them effectively.
+
+**Dalton**:  
+Imagine it’s 2001. If you could work at Google (an internet-native company on the cutting edge), you’d learn much more than if you worked at a large insurance company with minimal web adoption. By analogy, startups are adopting AI much faster than many big companies. So, working at a startup that’s embracing AI might give you more experience and learning than a large corporation bogged down by bureaucracy.
+
+### 3. Skills Development
+**Michael**:  
+There’s a running joke: when iOS first came out, some big company tried to hire iOS developers with “five years of experience,” but the platform had only been around for a year. Right now, if you start learning AI, you are almost at ground zero. There’s so much leverage in that.
+
+If you’re in high school, college, or post-college, you can upskill yourself. Another cool thing is that you have YouTube videos, tutorials, open-source communities—everything is out there in public to learn. If you’re technical or want to be technical, dive in. Learning how these models work, how Transformers work, or how to build them, will profoundly help you for the rest of your life.
+
+**Dalton**:  
+All of these major tech trends happened in public: websites, iOS apps, Bitcoin. It was never hidden behind closed doors. The only gatekeeper was skepticism or cynicism. Don’t be ambivalent. Don’t be negative. Lean into positivity. This is a big wave.
+
+### 4. Become a User
+**Dalton**:  
+Sign up for every AI product you can. Be a real user. In prior tech waves, waiting was sometimes the norm—people said, “Oh, it’s not ready yet.” Now, these AI tools can already help you get more done.
+
+**Michael**:  
+There’s a small learning curve. For example, using an LLM agent is different from using Google. The inputs are different, the responses are different, so expect to adjust. But the best way to get comfortable is to use the tools for real tasks, not just research them from afar.
+
+### 5. Don’t Do Nothing
+**Michael**:  
+This might be the meta point of the whole conversation. Change something. You know something that others don’t—namely, AI is the next big wave. Don’t just hold this knowledge. Act on it. Knowledge alone doesn’t accrue interest; it has to be used.
+
+### Is Being a Programmer Still Strategic?
+**Dalton**:  
+Some people say that being a programmer is no longer strategic in an AI-driven world. My opinion is that as tools get better, certain aspects of programming—like memorizing specific APIs—become less important. But understanding how everything works under the hood will become more important. Someone has to fix these systems when they break. Someone has to understand what the AI is doing. If you let your technical knowledge atrophy, and AI becomes a magic box you can’t open, that’s not a great place to be.
+
+I believe being extremely technical will still carry a premium. This has always been true historically. Programming is not going away just because AI can generate code.
+
+**Michael**:  
+Yes, as we’ve heard forever, people like to predict the death of programming, but it never happens. Even if you use AI tools like Cursor to help you program, people who already know how to code will have a big advantage. And if you’re not technical, it’s still incredibly strategic to partner with or work with someone who is.
+
+### Potential Step-Change Improvements
+**Dalton**:  
+We see YC companies doing amazing things with current models. There’s a question: is another step-change improvement coming soon, like a bigger leap in the next year or two? If you just look at the rate of new models and new techniques, it doesn’t seem like we’ve hit a wall. If you believe that, you see that the tools will only continue to improve.
+
+**Michael**:  
+They already work well, and it’s going to get better. It’s like an S-curve. The products reach a certain threshold, and then they take off quickly. Smart founders will assume these tools will keep getting better over time. You don’t even have to define the limit; it’s irrelevant. It just means it’s even more strategic to get involved today, because you’re riding the wave. Nearly everyone we know who has been successful found the right wave and rode it. And AI is a good one.
+
+**Dalton**:  
+All right, great chat.
+
+**Michael**:  
+Thanks, everyone.
