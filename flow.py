@@ -190,10 +190,8 @@ summary: comprehensive answer
 
 # Connect nodes
 validate = ValidateAndScreenQuestion(max_retries=3,wait=30)
-# validate = ValidateAndScreenQuestion()
 get_chunks = GetRelevantChunks()
 compose = ComposeAnswer(max_retries=3,wait=30)
-# compose = ComposeAnswer()
 
 validate - "valid" >> get_chunks >> compose
 # "invalid" path just ends as the response is already set

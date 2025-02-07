@@ -123,16 +123,83 @@ def block_page():
         </script>
     """, unsafe_allow_html=True)
     
+import streamlit as st
+
 def show_question_page():
     """
-    Renders the question input page.
+    Renders the question input page with an auto-populating dropdown.
     """
-    # Centered title (using inline HTML)
-    st.markdown("<h1 style='text-align:center;'>YC Partner AI Agent</h1>", unsafe_allow_html=True)
+    st.success(
+        "This project is fully open sourced on GitHub: "
+        "[![GitHub (green)](https://badgen.net/badge/icon/YC-Partner-Agent?icon=github&label=&color=green)]"
+        "(https://github.com/The-Pocket/YC-Partner-Agent)"
+    )
 
-    user_question = st.text_area("Ask your question (min. 10 chars):", max_chars=5000, height=150)
+    st.info(
+        "We use Pocket Flow, a 100-line LLM framework: "
+        "[![GitHub (purple)](https://badgen.net/badge/icon/PocketFlow?icon=github&label=&color=blue)]"
+        "(https://github.com/The-Pocket/PocketFlow)"
+    )
+    
+    st.markdown("<h1 style='text-align:center;'>AI YC Partner Agent</h1>", unsafe_allow_html=True)
 
-    # A wider submit button, styled with type="primary"
+
+
+        
+    # Higher-quality example questions
+    example_questions = {
+        "Equity vs SAFE": {
+            "question": "What are the main differences between equity and SAFE fundraising for early-stage startups?",
+        },
+        "Market Validation": {
+            "question": "How can we validate market demand before launching a new B2B SaaS product?",
+        },
+        "User Acquisition": {
+            "question": "What are the best strategies for user acquisition in the consumer social space?",
+        },
+        "Co-founder Relations": {
+            "question": "What are the best practices for building a strong co-founder relationship?",
+        }
+    }
+
+    # Initialize session state for user_question and selected_example
+    if "user_question" not in st.session_state:
+        st.session_state["user_question"] = ""
+    if "selected_example" not in st.session_state:
+        st.session_state["selected_example"] = "None"
+
+    # 1. Text area for user's question
+    user_question = st.text_area(
+        "Ask your question (min. 10 chars):",
+        value=st.session_state["user_question"],
+        max_chars=5000,
+        height=150
+    )
+
+    # 2. Dropdown to pick an example question
+    # Build a list for the selectbox (first item is 'None')
+    dropdown_options = ["None"] + list(example_questions.keys())
+
+    # Determine default index (if user already picked something)
+    if st.session_state["selected_example"] != "None":
+        default_index = dropdown_options.index(st.session_state["selected_example"])
+    else:
+        default_index = 0
+
+    selected_example = st.selectbox(
+        "Or select an example question:",
+        dropdown_options,
+        index=default_index
+    )
+
+    # 3. If user changes the selection, update text area & re-run
+    if selected_example != st.session_state["selected_example"]:
+        st.session_state["selected_example"] = selected_example
+        if selected_example != "None":
+            st.session_state["user_question"] = example_questions[selected_example]["question"]
+        st.rerun()
+
+    # 5. Submit button
     if st.button("Submit", use_container_width=True, type="primary"):
         # Enforce minimum question length
         if len(user_question.strip()) < 10:
@@ -194,10 +261,13 @@ def main():
     Main entry point for our Streamlit app.
     """
     st.set_page_config(
-        page_title="YC Partner AI Agent",
+        page_title="AI YC Partner Agent",
         layout="centered",
         initial_sidebar_state="collapsed",
     )
+
+    st.sidebar.markdown("# Just checking if you are talking to users")
+    st.sidebar.image("./images/meme.png", use_column_width=True)
 
     # Initialize session state
     if "show_answer" not in st.session_state:
