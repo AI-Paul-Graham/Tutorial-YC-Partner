@@ -10,7 +10,7 @@ This is a demo LLM app built with [Pocket Flow](https://github.com/The-Pocket/Po
 
 It uses RAG (Retrieval-Augmented Generation) on curated YC public materials and cites the most relevant sources. 
 
-[Try it out here](https://yc-partner-agent-eat3v5crbq-ue.a.run.app/).
+👉 [Try it out here](https://yc-partner-agent-eat3v5crbq-ue.a.run.app/).
 
 - *flow.py*: LLM systems for RAG and QA (based on [Pocket Flow](https://github.com/The-Pocket/PocketFlow))
   
