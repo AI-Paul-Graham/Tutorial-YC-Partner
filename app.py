@@ -264,7 +264,7 @@ def main():
     )
 
     st.sidebar.markdown("# Just checking if you are talking to users")
-    st.sidebar.image("./images/meme.png", use_column_width=True)
+    st.sidebar.image("./images/meme.png", use_container_width=True)
 
     # Initialize session state
     if "show_answer" not in st.session_state:
