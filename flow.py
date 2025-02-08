@@ -93,8 +93,8 @@ class GetRelevantChunks(Node):
             np.linalg.norm(chunk_embeddings, axis=1) * np.linalg.norm(question_vector)
         )
         
-        # Get top 10 chunks
-        top_indices = np.argsort(similarities)[-10:][::-1]
+        # Get top 5 chunks
+        top_indices = np.argsort(similarities)[-5:][::-1]
         
         results = []
         for idx in top_indices:
@@ -103,16 +103,12 @@ class GetRelevantChunks(Node):
             
             # Get chunk text and expand it
             chunk_text = chunk_texts.get((text_id, chunk_id), "")
-            chunk_start = max(0, chunk_id * 10000 - 2000)
-            chunk_end = min(len(chunk_text), (chunk_id + 1) * 10000 + 2000)
-            expanded_text = chunk_text[chunk_start:chunk_end]
             
             results.append({
                 'text_id': text_id,
                 'chunk_id': chunk_id,
                 'score': float(similarities[idx]),
                 'content': chunk_text,
-                'expanded_content': expanded_text
             })
             
         return results
@@ -141,7 +137,7 @@ class ComposeAnswer(Node):
             meta_row = meta_df[meta_df['text_id'] == text_id].iloc[0]
             formatted_chunks.append(f"""
 Source {i}: {meta_row['title']} ({meta_row['link']})
-Content: {chunk['expanded_content']}
+Content: {chunk['content']}
 """)
         
         prompt = f"""
@@ -167,8 +163,10 @@ Output in yaml:
 ```yaml
 citations:
   - source_id: local source number (1-{len(chunks)})
-    citation: cleaned up quote from that source
-summary: comprehensive answer
+    citation: >
+        cleaned up quote from that source
+summary: >
+    comprehensive answer
 ```
 """
         resp = call_llm(prompt)
@@ -191,9 +189,11 @@ summary: comprehensive answer
         shared["final_answer"] = exec_res
 
 # Connect nodes
-validate = ValidateAndScreenQuestion(max_retries=3,wait=30)
+# validate = ValidateAndScreenQuestion(max_retries=3,wait=30)
+validate = ValidateAndScreenQuestion()
 get_chunks = GetRelevantChunks()
-compose = ComposeAnswer(max_retries=3,wait=30)
+# compose = ComposeAnswer(max_retries=3,wait=30)
+compose = ComposeAnswer()
 
 validate - "valid" >> get_chunks >> compose
 # "invalid" path just ends as the response is already set
