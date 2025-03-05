@@ -3,7 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 <div align="center">
-  <img src="./images/demo.gif"/>
+  <img src="./images/banner.png" width="800"/>
 </div>
 
 This is a demo LLM app built with [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line minimalist LLM framework. 
@@ -25,5 +25,7 @@ It uses RAG (Retrieval-Augmented Generation) on curated YC public materials and 
 This is our YC application. Will YC like the idea...?
 
 <div align="center">
-  <img src="./images/meme2.png" width="500"/>
+  <img src="./images/meme2.png" width="400"/>
 </div>
+
+(Of course it's just a meme)
