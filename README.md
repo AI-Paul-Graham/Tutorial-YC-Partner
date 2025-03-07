@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalized startup advice, instantly available whenever you need it.
+Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalized startup advice. Paul will be there whenever you need him.
 
 <!-- <div align="center">
   <img src="./assets/banner.png" width="700"/>
