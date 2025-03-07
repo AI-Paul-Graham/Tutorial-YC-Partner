@@ -1,31 +1,42 @@
-<h1 align="center">AI YC Partner Agent</h1>
+<h1 align="center">Ask AI Paul Graham</h1>
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-<div align="center">
-  <img src="./images/banner.png" width="800"/>
-</div>
+Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalized startup advice, instantly available whenever you need it.
 
-This is a demo LLM app built with [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line minimalist LLM framework. 
+<!-- <div align="center">
+  <img src="./assets/banner.png" width="700"/>
+</div> -->
 
-It uses RAG (Retrieval-Augmented Generation) on curated YC public materials and cites the most relevant sources. 
+- **Design Doc:** [docs/design.md](docs/design.md)
 
-👉 [Try it out here](https://yc-partner-agent-eat3v5crbq-ue.a.run.app/).
+- **Flow Source Code:** [flow.py](flow.py)
 
-- *flow.py*: LLM systems for RAG and QA (based on [Pocket Flow](https://github.com/The-Pocket/PocketFlow))
-  
-- *app.py*: Frontend using Streamlit
-  
-- *preprocess.py*: Generates embeddings for the curated YC public materials
+- **Built with:** [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line LLM framework that lets LLM Agents build apps for you.
 
----
+- I built this in **just a few hours** using Pocket Flow and Cursor AI—and you can too.
 
-## By the way…
+- Step-by-step YouTube development tutorial coming soon! [Subscribe for notifications](https://www.youtube.com/@ZacharyLLM?sub_confirmation=1).
 
-This is our YC application. Will YC like the idea...?
+## How to Run
 
-<div align="center">
-  <img src="./images/meme2.png" width="400"/>
-</div>
+1. Implement functions in the `utils/` directory based on your chosen APIs.
 
-(Of course it's just a meme)
+2. Install dependencies and run the program:
+
+    ```bash
+    pip install -r requirements.txt
+    python main.py
+    ```
+
+3. To run the application server:
+
+    ```bash
+    streamlit run app.py
+    ```
+
+4. If you change the data in the `data/` directory or the `meta.csv` file, ensure you run the offline processing script to generate the index and metadata:
+
+    ```bash
+    python offline_processing.py
+    ```

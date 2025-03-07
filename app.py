@@ -1,280 +1,318 @@
+import os
+import json
 import streamlit as st
+from flow import online_flow
+from utils.vector_search import load_index
+import base64
+import logging
+from PIL import Image
+import io
 import pandas as pd
-from flow import *
 
-def chunk_indices(n, chunk_size=10000):
-    """
-    Given the size of a text (n characters), split into chunks of length `chunk_size`.
-    If the final chunk is < 50% of chunk_size, merge it with the previous chunk.
-    Returns a list of (start_index, end_index) pairs.
-    """
-    if n <= 0:
-        return []
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+logger = logging.getLogger("paul_graham_streamlit")
 
-    chunks = []
-    start = 0
-    while start < n:
-        end = min(start + chunk_size, n)
-        chunks.append((start, end))
-        start = end
+# Define audio cache directory
+AUDIO_CACHE_DIR = "audio_cache"
 
-    # Merge the last chunk if it's too small
-    if len(chunks) > 1:
-        last_start, last_end = chunks[-1]
-        last_chunk_size = last_end - last_start
-        if last_chunk_size < (0.5 * chunk_size):
-            second_last_start, second_last_end = chunks[-2]
-            merged_chunk = (second_last_start, last_end)
-            chunks[-2] = merged_chunk
-            chunks.pop()
+# Set up page config
+st.set_page_config(
+    page_title="AI Paul Graham",
+    page_icon="📝",
+    layout="centered",
+    initial_sidebar_state="collapsed",
+)
 
-    return chunks
-
-def parse_embedding(embedding_str):
-    """Parse embedding string back into numpy array"""
-    # Extract values from TextEmbedding string using regex
-    values_str = re.search(r'values=\[(.*?)\]', embedding_str)
-    if values_str:
-        # Convert string of numbers into float array
-        values = [float(x) for x in values_str.group(1).split(',')]
-        return np.array(values)
-    return None
-
-# Load the data
-shared = {
-    "meta_df": pd.read_csv("meta.csv"),
-    "embeddings_df": pd.read_csv("embeddings.csv"),
-}
-
-shared["embeddings_df"]["embedding"] = shared["embeddings_df"]["embedding"].apply(parse_embedding)
-
-# Read text contents and create chunk_texts
-text_contents = {}
-chunk_texts = {}
-
-# Assuming texts are in a 'texts' directory with filenames like '1.txt', '2.txt'
-for text_id in shared["meta_df"]["text_id"]:
-    try:
-        with open(f"./data/{text_id}.txt", "r", encoding="utf-8") as f:
-            text = f.read()
-            text_contents[text_id] = text
-            
-            # Create chunks for this text
-            chunks = chunk_indices(len(text))
-            for chunk_id, (start, end) in enumerate(chunks, 1):
-                chunk_texts[(text_id, chunk_id)] = text[start:end]
-    except FileNotFoundError:
-        print(f"Warning: Text file for id {text_id} not found")
-
-shared["chunk_texts"] = chunk_texts
-
-st.session_state["meta_df"] = shared["meta_df"]
-
-def block_page():
-    st.markdown("""
-        <style>
-        #root > div:first-child {
-            position: relative;
-        }
-        .blockPage {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background-color: rgba(255,255,255,0.8);
-            z-index: 999999;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #3498db;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        .message {
-            margin-top: 20px;
-            font-size: 18px;
-            color: #333;
-        }
-        </style>
-        <div class="blockPage">
-            <div class="spinner"></div>
-            <div class="message">Working on your question. Should take &lt;1 min...</div>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    # Add JavaScript to ensure the overlay is on top of everything
-    st.markdown("""
-        <script>
-        (function() {
-            const blockPage = document.querySelector('.blockPage');
-            document.body.appendChild(blockPage);
-        })();
-        </script>
-    """, unsafe_allow_html=True)
-    
-import streamlit as st
-
-def show_question_page():
-    """
-    Renders the question input page with an auto-populating dropdown.
-    """
-    st.success(
-        "This project is fully open sourced on GitHub: "
-        "[![GitHub (green)](https://badgen.net/badge/icon/YC-Partner-Agent?icon=github&label=&color=green)]"
-        "(https://github.com/The-Pocket/YC-Partner-Agent)"
-    )
-
-    st.info(
-        "We use Pocket Flow, a 100-line LLM framework: "
-        "[![GitHub (purple)](https://badgen.net/badge/icon/PocketFlow?icon=github&label=&color=blue)]"
-        "(https://github.com/The-Pocket/PocketFlow)"
-    )
-    
-    st.markdown("<h1 style='text-align:center;'>AI YC Partner Agent</h1>", unsafe_allow_html=True)
-
-    # Higher-quality example questions
-    example_questions = {
-        "Equity vs SAFE": {
-            "question": "What are the main differences between equity and SAFE fundraising for early-stage startups?",
-        },
-        "Market Validation": {
-            "question": "How can we validate market demand before launching a new B2B SaaS product?",
-        },
-        "User Acquisition": {
-            "question": "What are the best strategies for user acquisition in the consumer social space?",
-        },
-        "Co-founder Relations": {
-            "question": "What are the best practices for building a strong co-founder relationship?",
-        }
+# Custom CSS to improve appearance
+st.markdown("""
+<style>
+    .main-header {
+        font-size: 2.5rem;
+        text-align: center;
     }
+    .subheader {
+        font-size: 1.2rem;
+        font-style: italic;
+        margin-bottom: 2rem;
+    }
+    .stSpinner {
+        margin-bottom: 10px;
+    }
+    .log-container {
+        background-color: #1E1E1E;
+        color: #DCDCDC;
+        font-family: monospace;
+        padding: 10px;
+        border-radius: 5px;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+</style>
+""", unsafe_allow_html=True)
 
-    # Initialize session state for user_question and selected_example
-    if "user_question" not in st.session_state:
-        st.session_state["user_question"] = ""
-    if "selected_example" not in st.session_state:
-        st.session_state["selected_example"] = "None"
-
-    # 1. Text area for user's question
-    user_question = st.text_area(
-        "Ask your question (min. 10 chars):",
-        value=st.session_state["user_question"],
-        max_chars=5000,
-        height=150
-    )
-
-    # 2. Dropdown to pick an example question
-    # Build a list for the selectbox (first item is 'None')
-    dropdown_options = ["None"] + list(example_questions.keys())
-
-    # Determine default index (if user already picked something)
-    if st.session_state["selected_example"] != "None":
-        default_index = dropdown_options.index(st.session_state["selected_example"])
-    else:
-        default_index = 0
-
-    selected_example = st.selectbox(
-        "Or select an example question:",
-        dropdown_options,
-        index=default_index
-    )
-
-    # 3. If user changes the selection, update text area & re-run
-    if selected_example != st.session_state["selected_example"]:
-        st.session_state["selected_example"] = selected_example
-        if selected_example != "None":
-            st.session_state["user_question"] = example_questions[selected_example]["question"]
-        st.rerun()
-
-    # 5. Submit button
-    if st.button("Submit", use_container_width=True, type="primary"):
-        # Enforce minimum question length
-        if len(user_question.strip()) < 10:
-            st.warning("Please enter at least 10 characters.")
+def initialize_system(output_dir="output"):
+    """Load necessary resources at system startup."""
+    with st.spinner("Loading Paul Graham's knowledge base..."):
+        # Load FAISS index
+        faiss_index_path = os.path.join(output_dir, "essay_index.faiss")
+        faiss_index = load_index(faiss_index_path)
+        
+        # Load chunk metadata (includes text content)
+        metadata_path = os.path.join(output_dir, "chunk_metadata.json")
+        with open(metadata_path, "r") as f:
+            chunk_metadata = json.load(f)
+        
+        # Load essay metadata from CSV
+        meta_csv_path = "meta.csv"
+        if os.path.exists(meta_csv_path):
+            essay_metadata = pd.read_csv(meta_csv_path)
+            # Convert to dictionary for easier lookup by essay_id
+            essay_metadata_dict = essay_metadata.set_index('text_id').to_dict(orient='index')
         else:
-            block_page()
-            
-            # Pass the user's question to the shared dict
-            shared["question"] = user_question.strip()
-            partner_flow.run(shared)
+            logger.warning(f"Meta CSV file not found at {meta_csv_path}")
+            essay_metadata_dict = {}
+        
+        st.session_state.system_resources = {
+            "faiss_index": faiss_index,
+            "chunk_metadata": chunk_metadata,
+            "essay_metadata": essay_metadata_dict
+        }
+        
+        return st.session_state.system_resources
 
-            # Store results into session state so we can access them later
-            st.session_state["user_question"] = user_question.strip()
-            st.session_state["final_answer"] = shared["final_answer"]
-            st.session_state["show_answer"] = True
-
-            # Rerun to get to the answer page
-            st.rerun()
-
-def show_answer_page():
+def get_audio_player(audio_path):
+    """Create an HTML5 audio player for the given audio file."""
+    with open(audio_path, "rb") as f:
+        audio_bytes = f.read()
+    
+    audio_base64 = base64.b64encode(audio_bytes).decode()
+    audio_player = f"""
+        <audio controls autoplay class="stAudio">
+            <source src="data:audio/wav;base64,{audio_base64}" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
     """
-    Renders the answer page using a chat-like interface.
-    """
-    st.markdown("<h1 style='text-align:center;'>Answer</h1>", unsafe_allow_html=True)
-
-    # Retrieve from session state
-    user_question = st.session_state.get("user_question", "")
-    meta_df = st.session_state.get("meta_df", pd.DataFrame())
-    final_answer = st.session_state.get("final_answer", {})
-
-    # 1. Display the user's question in a "chat bubble"
-    with st.chat_message("user"):
-        st.write(user_question)
-
-    # 2. Display the AI assistant's response:
-    with st.chat_message("assistant"):
-        # a) Show each citation in its own expander, expanded by default
-        if "citations" in final_answer:
-            for citation in final_answer["citations"]:
-                row = meta_df[meta_df["text_id"] == citation["text_id"]].iloc[0]
-                title = row["title"]
-                link = row["link"]
-                
-                with st.expander(title, expanded=True):
-                    st.markdown(f"[**Link**]({link})")  # Link as content
-                    st.write(citation["citation"])
-
-        # b) Now display the summary **below** the citations
-        if "summary" in final_answer:
-            st.write(final_answer["summary"])
-
-    # 3. Button to go back and ask another question
-    if st.button("Ask Another Question", use_container_width=True, type="primary"):
-        st.session_state["show_answer"] = False
-        st.rerun()
+    return audio_player
 
 def main():
-    """
-    Main entry point for our Streamlit app.
-    """
-    st.set_page_config(
-        page_title="AI YC Partner Agent",
-        layout="centered",
-        initial_sidebar_state="collapsed",
-    )
+    # Initialize processing status in session state if not present
+    if "is_processing" not in st.session_state:
+        st.session_state.is_processing = False
+    
+    if "submitted_query" not in st.session_state:
+        st.session_state.submitted_query = ""
+        
+    # Function to handle form submission
+    def handle_submission():
+        if not st.session_state.user_query.strip():
+            st.error("Please enter your question.")
+            return
+        elif len(st.session_state.user_query.strip()) < 10:
+            st.error("Your question should be at least 10 characters long.")
+            return
+        else:
+            st.session_state.is_processing = True
+            st.session_state.submitted_query = st.session_state.user_query
 
-    st.sidebar.markdown("# Just checking if you are talking to users")
-    st.sidebar.image("./images/meme.png", use_container_width=True)
-
-    # Initialize session state
-    if "show_answer" not in st.session_state:
-        st.session_state["show_answer"] = False
-
-    # Toggle between the question page and the answer page
-    if st.session_state["show_answer"]:
-        show_answer_page()
+    # Initialize system if not already done
+    if 'system_resources' not in st.session_state:
+        system_resources = initialize_system()
     else:
-        show_question_page()
+        system_resources = st.session_state.system_resources
+    
+
+    # Put text area + submit button together in a form
+    with st.form("ask_paul_form"):
+        # Display header
+        st.markdown('<p class="main-header">Ask AI Paul Graham</p>', unsafe_allow_html=True)
+
+        # Add Paul Graham's image with round corners and shadow
+        # Load the image from the assets directory
+        image_path = os.path.join("assets", "paul_graham.png")
+        if os.path.exists(image_path):
+            # Apply custom CSS for the circular image with shadow
+            st.markdown("""
+            <style>
+            .circular-image {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 30px;
+            }
+            .circular-image img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+                border: 3px solid #ffffff;
+            }
+            </style>
+            """, unsafe_allow_html=True)
+            
+            # Create columns to center the image
+            col1, col2, col3 = st.columns([1, 1, 1])
+            with col2:
+                # Use HTML for the image to maintain styling control
+                img = Image.open(image_path)
+                img_byte_arr = io.BytesIO()
+                img.save(img_byte_arr, format='PNG')
+                img_base64 = base64.b64encode(img_byte_arr.getvalue()).decode()
+                
+                st.markdown(f"""
+                <div class="circular-image">
+                    <img src="data:image/png;base64,{img_base64}" alt="Paul Graham">
+                </div>
+                """, unsafe_allow_html=True) 
+                
+        user_query = st.text_area(
+            "What would you like to ask Paul Graham?",
+            value="I sent 50 cold emails to potential customers, but no one responded. I feel like my life is a failure. What should I do?",
+            key="user_query",
+            height=100, 
+            max_chars=500,
+            placeholder="e.g., What advice do you have for startup founders?",
+        )
+        
+        st.markdown('<div style="font-size: 0.8em; color: #666; margin-bottom: 20px;">This project is fully open sourced at: <a href="https://github.com/The-Pocket/Tutorial-YC-Partner">GitHub</a><br>This is an example LLM project for <a href="https://github.com/The-Pocket/PocketFlow">Pocket Flow</a>, a 100-line LLM framework.</div>', unsafe_allow_html=True)
+
+        # This button will submit the form (capturing your most recent text)
+        submitted = st.form_submit_button(
+            "Ask Paul", 
+            disabled=st.session_state.is_processing, 
+            type="primary", 
+            use_container_width=True,
+            on_click=handle_submission
+        )
+
+    # Process the query if we're in processing state
+    if st.session_state.is_processing and st.session_state.submitted_query:
+        # Preserve the submitted query for display
+        user_query = st.session_state.submitted_query
+        
+        # Create shared data for this query
+        shared = {
+            # System resources
+            "faiss_index": system_resources["faiss_index"],
+            "chunk_metadata": system_resources["chunk_metadata"],
+            "essay_metadata": system_resources["essay_metadata"],
+            
+            # Query
+            "query": user_query
+        }
+        
+        # Show progress with live logging
+        with st.spinner("Paul is thinking..."):
+            # Create a status area and log area
+            status_area = st.empty()
+            log_area = st.empty()
+            
+            # Create a custom log handler to display logs in real-time
+            log_messages = []
+            class StreamlitLogHandler(logging.Handler):
+                def emit(self, record):
+                    log_messages.append(self.format(record))
+                    log_text = "\n".join(log_messages[-10:])  # Show last 10 messages
+                    log_area.markdown(f'<div class="log-container">{log_text}</div>', unsafe_allow_html=True)
+            
+            # Add the custom handler to the logger
+            streamlit_handler = StreamlitLogHandler()
+            streamlit_handler.setFormatter(logging.Formatter('%(levelname)s: %(message)s'))
+            logging.getLogger().addHandler(streamlit_handler)
+            
+            try:
+                # Run the online processing flow
+                online_flow.run(shared)
+                # Don't show "Processing completed" message
+                status_area.empty()
+                
+                # Store a copy of the shared data for debugging
+                st.session_state.last_query_data = shared.copy()
+                
+                # Remove the custom handler
+                logging.getLogger().removeHandler(streamlit_handler)
+                
+            except Exception as e:
+                status_area.error(f"An error occurred: {str(e)}")
+                logging.getLogger().removeHandler(streamlit_handler)
+                st.error(f"Failed to generate response: {str(e)}")
+                # Clear submitted query to prevent reprocessing on page refresh
+                st.session_state.submitted_query = ""
+                return
+            
+            # Clear the live log display after processing
+            log_area.empty()
+        
+        # Get the response
+        if not shared.get("is_valid_query", True):
+            response = shared['final_response']
+        else:
+            if isinstance(shared['final_response'], dict) and 'content' in shared['final_response']:
+                # Extract just the content if it's a dictionary
+                response = shared['final_response']['content']
+            else:
+                response = shared['final_response']
+            
+        # Remove "humm" occurrences from the response
+        response = response.replace(" Humm.", "").replace("Humm. ", "").replace("Humm.", "").replace("Humm,", "")
+        
+        # Extract and deduplicate essay sources if available
+        useful_resources = []
+        if 'relevant_chunks' in shared and shared['relevant_chunks']:
+            essay_ids = set()
+            for chunk in shared['relevant_chunks']:
+                if chunk.get('is_relevant', False):
+                    essay_id = chunk['metadata'].get('essay_id', 'unknown')
+                    # Try to extract the numeric essay_id
+                    try:
+                        # Some essay_ids might be in the format "essay_123", try to extract the number
+                        if isinstance(essay_id, str) and "_" in essay_id:
+                            essay_id = int(essay_id.split("_")[1])
+                        else:
+                            essay_id = int(essay_id)
+                        essay_ids.add(essay_id)
+                    except (ValueError, TypeError):
+                        # If we can't convert to int, skip this essay_id
+                        logger.warning(f"Could not convert essay_id {essay_id} to integer")
+                        continue
+            
+            # Get essay metadata for these IDs
+            essay_metadata = shared.get('essay_metadata', {})
+            for essay_id in sorted(essay_ids):
+                if essay_id in essay_metadata:
+                    metadata = essay_metadata[essay_id]
+                    title = metadata.get('title', f"Essay {essay_id}")
+                    link = metadata.get('link', '')
+                    useful_resources.append({
+                        'essay_id': essay_id,
+                        'title': title,
+                        'link': link
+                    })
+
+        # Display the response
+        st.markdown(f"**Paul Graham:** {response}")
+
+        # Check if audio is available
+        audio_hash = shared.get('audio_file_hash')
+        if audio_hash:
+            audio_path = os.path.join(AUDIO_CACHE_DIR, f"{audio_hash}.wav")
+            if os.path.exists(audio_path):
+                st.markdown(get_audio_player(audio_path), unsafe_allow_html=True)
+        
+        # Display useful resources if available
+        if useful_resources:
+            st.markdown("**Useful Resources:**", unsafe_allow_html=True)
+            for resource in useful_resources:
+                title = resource['title']
+                link = resource['link']
+                if link:
+                    st.markdown(f"- [{title}]({link})", unsafe_allow_html=True)
+                else:
+                    st.markdown(f"- {title}", unsafe_allow_html=True)
 
 if __name__ == "__main__":
-    main()
+    main() 
