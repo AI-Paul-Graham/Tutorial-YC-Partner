@@ -4,9 +4,13 @@
 
 Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalized startup advice. Paul will be there whenever you need him.
 
-<!-- <div align="center">
-  <img src="./assets/banner.png" width="700"/>
-</div> -->
+<br>
+<div align="center">
+  <a href="https://youtu.be/QVYV4zZ90KU" target="_blank">
+    <img src="./assets/pg_banner.png" width="700" alt="IMAGE ALT TEXT" style="cursor: pointer;">
+  </a>
+</div>
+<br>
 
 - 🔥🔥🔥 [Try Live Demo](https://pocket-pg-851564657364.us-east1.run.app/)
   
