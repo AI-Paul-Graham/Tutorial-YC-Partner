@@ -12,10 +12,10 @@ Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalize
 
 - **Flow Source Code:** [flow.py](flow.py)
 
-- **Built with:** [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line LLM framework that lets LLM Agents build apps for you.
+## I built this in just an hour, and you can, too.
 
-- I built this in **just a few hours** using Pocket Flow and Cursor AI—and you can too.
-
+- Built With [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line LLM framework that lets LLM Agents (e.g., Cursor AI) build Apps for you
+  
 - Step-by-step YouTube development tutorial coming soon! [Subscribe for notifications](https://www.youtube.com/@ZacharyLLM?sub_confirmation=1).
 
 ## How to Run
