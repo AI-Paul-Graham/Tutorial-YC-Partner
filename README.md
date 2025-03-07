@@ -10,9 +10,7 @@ Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalize
 
 - 🔥🔥🔥 [Try Live Demo](https://pocket-pg-851564657364.us-east1.run.app/)
   
-- **Design Doc:** [docs/design.md](docs/design.md)
-
-- **Flow Source Code:** [flow.py](flow.py)
+- Design Doc: [docs/design.md](docs/design.md), Flow Source Code: [flow.py](flow.py)
 
 ## I built this in just an hour, and you can, too.
 
