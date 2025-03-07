@@ -8,6 +8,8 @@ Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalize
   <img src="./assets/banner.png" width="700"/>
 </div> -->
 
+- 🔥🔥🔥 [Try Live Demo](https://pocket-pg-851564657364.us-east1.run.app/)
+  
 - **Design Doc:** [docs/design.md](docs/design.md)
 
 - **Flow Source Code:** [flow.py](flow.py)
