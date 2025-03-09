@@ -22,6 +22,13 @@ Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalize
   
 - Step-by-step YouTube development tutorial:
 
+<br>
+<div align="center">
+  <a href="https://youtu.be/Cf38Bi8U0Js" target="_blank">
+    <img src="./assets/tutorial.png" width="500" alt="IMAGE ALT TEXT" style="cursor: pointer;">
+  </a>
+</div>
+<br>
 
 ## How to Run
 
