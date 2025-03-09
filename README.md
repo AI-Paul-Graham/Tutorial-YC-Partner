@@ -20,7 +20,8 @@ Didn't get into YC? Don't worry—now you can ask AI Paul Graham for personalize
 
 - The secret weapon is [Pocket Flow](https://github.com/The-Pocket/PocketFlow), a 100-line LLM framework that lets LLM Agents (e.g., Cursor AI) build Apps for you
   
-- Step-by-step YouTube development tutorial coming soon! [Subscribe for notifications](https://www.youtube.com/@ZacharyLLM?sub_confirmation=1).
+- Step-by-step YouTube development tutorial:
+
 
 ## How to Run
 
